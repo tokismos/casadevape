@@ -1,0 +1,83 @@
+/* achievements Stygen */
+
+.lwss_selectable.lws-woorewards-achievements-cont{
+	display:flex;flex-direction: column;
+}
+.lwss_selectable.lwss_modify.lws-wr-achievements-header{
+	padding-top:5px;padding-right:5px;padding-bottom:5px;padding-left:5px;
+}
+.lwss_selectable.lws-achievements-container{
+	display:flex;flex-direction: column;
+}
+.lwss_selectable.lws-achievement-container{
+	flex:1 1 auto;display:flex;flex-direction: column;box-sizing: border-box;margin:5px 0 0 5px;
+	border:1px solid;border-radius:4px;border-color:#550047;
+	background-color:#eeeeee;
+}
+.lwss_selectable.lws-achievement-container.success{
+	background-color:#cccccc;
+}
+.lwss_selectable.lws-achievement-top{
+	display:flex;flex-direction: row;
+}
+.lwss_selectable.lws-achievement-bottom{
+	border-top:1px solid;border-color:#550047;
+	display:flex;flex-direction: column; margin:5px;
+}
+.lwss_selectable.lws-achievement-imgcol{
+	flex:0 1 100px;display:flex;flex-direction: row; min-height:100px;
+	justify-content: center;align-items: center;
+}
+.lwss_selectable.lws-achievement-contentcol{
+	flex:1 1 auto;padding:5px;
+	display:flex;flex-direction: column;
+}
+.lwss_selectable.lws-achievement-title{
+	color:#cc00a0;
+	font-size:16px;font-weight: bold;
+	border-bottom:1px solid;border-color:#550047;
+}
+.lwss_selectable.lws-achievement-badge-line{
+	padding:5px 0;
+}
+.lwss_selectable.lws-achievement-badge-title{
+	color:#333333;
+	text-align: justify; font-size: 14px; font-weight: bold;
+}
+.lwss_selectable.lws-achievement-badge-desc{
+	color:#333333;
+	flex:1 1 auto;flex-wrap:wrap;
+	text-align: justify; font-size: 14px;
+}
+.lwss_selectable.lws-achievement-action-line{
+	color:#333333;
+	text-align: center;padding:5px;
+}
+.lwss_selectable.lws-achievement-action-progtext{
+	color:#333333;
+	text-align: center;padding:5px;
+}
+.lwss_selectable.lws-achievement-action-progtext.success{
+	color:#cc00a0;
+	font-weight:bold;
+}
+.lwss_selectable.lws-achievement-progress-line{
+	display:flex;flex-direction: row; justify-content: space-around; padding:0 20px;
+	align-items: center;
+}
+.lwss_selectable.lws-achievement-progress-leftval, .lwss_selectable.lws-achievement-progress-rightval{
+	flex:0 0 auto;padding:0 5px; font-weight: bold;
+	color:#333333;
+}
+.lwss_selectable.lws-achievement-progress-bar{
+	flex:1 1 auto;height:6px;border-radius:3px;
+	background-color: #333333;
+	position:relative;
+}
+.lwss_selectable.lws-achievement-progressed-bar{
+	height:6px;border-radius:3px;
+	background-color: #cc00a0;
+	position:absolute;top:0;left:0; width:60%;
+}
+
+

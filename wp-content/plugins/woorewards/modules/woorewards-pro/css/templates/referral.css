@@ -1,0 +1,22 @@
+.lwss_selectable.lws-woorewards-referral-field-copy.lws_referral_value_copy{
+	display:flex;flex-direction:row;align-items:center;
+	border:1px solid #959595;border-radius:4px;background-color:#959595;
+}
+.lwss_selectable.lws-woorewards-referral-field-copy-text{
+	padding-top: 5px;padding-right: 10px;padding-bottom: 5px;padding-left: 10px;
+	background-color:#ffffff;border-radius:4px 0 0 4px;
+	flex:0 1 auto;font-size:12px;overflow: hidden; white-space:nowrap;
+}
+.lwss_selectable.lws-woorewards-referral-field-copy-icon{
+	border-left:1px solid #959595;padding:0 10px;cursor:pointer;
+	color:#ffffff;
+	align-items: baseline;text-align:center;align-content:center;
+	flex:0 0 20px;
+}
+.lwss_selectable.lwss_modify.lws-woorewards-referral-description{
+	text-align: justify;
+	color: #666666;
+	padding-bottom: 5px;
+	font-size: 20px;
+	margin-bottom: 5px;
+}

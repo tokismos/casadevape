@@ -1,0 +1,34 @@
+/** Sponsorship form style */
+.lws_woorewards_sponsorship_widget .lws_woorewards_sponsorship_submit{cursor:pointer;}
+.lwss_selectable.lws_woorewards_sponsorship_field{
+	width: 100%;
+}
+.lwss_selectable.lwss_modify.lws_woorewards_sponsorship_submit{
+	margin: auto;
+	padding: 10px;
+	border-radius: 4px;
+	background-color: rgb(63, 169, 245);
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	text-decoration: none;
+	text-align:center;
+}
+.lwss_selectable.lwss_modify.lws_woorewards_sponsorship_description{
+	text-align: justify;
+	color: rgb(102, 102, 102);
+	padding-bottom: 5px;
+	font-size: 20px;
+	margin-bottom: 5px;
+	border-top-width:0px;border-right-width:0px;border-bottom-width:1px;border-left-width:0px;
+	border-style:solid;
+	border-color:#999999;
+}
+.lwss_selectable.lws_woorewards_sponsorship_input{
+	padding-top:10px;padding-bottom:10px;
+}
+.lwss_selectable.lws_woorewards_sponsorship_field{
+	box-shadow:none;
+}
+.lwss_selectable.lws_woorewards_sponsorship_feedback{
+	margin-top: 5px;
+}

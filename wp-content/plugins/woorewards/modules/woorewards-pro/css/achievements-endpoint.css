@@ -1,0 +1,90 @@
+/* achievements My Account Page */
+:root{
+	--wr-achievements-main-color : #550047;
+	--wr-achievements-second-color : #333333;
+	--wr-achievements-third-color : #cccccc;
+	--wr-achievements-fourth-color : #eeeeee;
+	--wr-achievements-text-color : #333333;
+	--wr-achievements-title-color : #ffffff;
+	--wr-achievements-highlight-color :#cc00a0;
+	--type : light;
+}
+
+.ae-main-container{color:var(--wr-achievements-text-color);flex:0 1 auto;}
+.ae-title-container{border-bottom: 1px solid;border-color:var(--wr-achievements-main-color)}
+.ae-title-text{
+	padding-top:5px;padding-right:10px;padding-bottom:5px;padding-left:10px;box-sizing: border-box;
+	color: var(--wr-achievements-title-color);text-transform: uppercase;font-size:16px;background-color:var(--wr-achievements-main-color);
+}
+
+.ae-achievements-container{
+	display:flex;flex-direction: column;
+}
+.ae-achievement-container{
+	flex:1 1 auto;display:flex;flex-direction: column;box-sizing: border-box;margin:5px 0 0 5px;
+	border:1px solid;border-radius:4px;border-color:var(--wr-achievements-main-color);
+	background-color:var(--wr-achievements-fourth-color);
+}
+.ae-achievement-container.success{
+	background-color:var(--wr-achievements-third-color);
+}
+.ae-achievement-top{
+	display:flex;flex-direction: row;
+}
+.ae-achievement-bottom{
+	border-top:1px solid;border-color:var(--wr-achievements-main-color);
+	display:flex;flex-direction: column; margin:5px;
+}
+.ae-achievement-imgcol{
+	flex:0 1 100px;display:flex;flex-direction: row; min-height:100px;
+	justify-content: center;align-items: center;
+}
+.ae-achievement-contentcol{
+	flex:1 1 auto;padding:5px;
+	display:flex;flex-direction: column;
+}
+.ae-achievement-title{
+	color:var(--wr-achievements-highlight-color);
+	font-size:16px;font-weight: bold;
+	border-bottom:1px solid;border-color:var(--wr-achievements-main-color)
+}
+.ae-achievement-badge-line{
+	padding:5px 0;
+}
+.ae-achievement-badge-title{
+	color:var(--wr-achievements-text-color);
+	text-align: justify; font-size: 14px; font-weight: bold;
+}
+.ae-achievement-badge-desc{
+	color:var(--wr-achievements-text-color);
+	flex:1 1 auto;flex-wrap:wrap;
+	text-align: justify; font-size: 14px;
+}
+.ae-achievement-action-line{
+	color:var(--wr-achievements-text-color);
+	text-align: center;padding:5px;
+}
+.ae-achievement-action-line.success{
+	color:var(--wr-achievements-highlight-color);
+	font-weight:bold;
+}
+.ae-achievement-progress-line{
+	display:flex;flex-direction: row; justify-content: space-around; padding:0 20px;
+	align-items: center;
+}
+.ae-achievement-progress-leftval, .ae-achievement-progress-rightval{
+	flex:0 0 auto;padding:0 5px; font-weight: bold;
+	color:var(--wr-achievements-text-color);
+}
+.ae-achievement-progress-bar{
+	flex:1 1 auto;height:6px;border-radius:3px;
+	background-color: var(--wr-achievements-second-color);
+	position:relative;
+}
+.ae-achievement-progressed-bar{
+	height:6px;border-radius:3px;
+	background-color: var(--wr-achievements-highlight-color);
+	position:absolute;top:0;left:0; width:60%;
+}
+
+

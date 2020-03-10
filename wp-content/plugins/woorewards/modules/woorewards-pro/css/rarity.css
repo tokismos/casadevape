@@ -1,0 +1,4 @@
+/* Style applied in Badge Rarity Editlist */
+
+.lws-woorewards-rarity-edit{display:flex;flex-direction: row;flex:1 1 auto;}
+.lws-master-editlist.lws-rarity-editlist tfoot{display: none;}

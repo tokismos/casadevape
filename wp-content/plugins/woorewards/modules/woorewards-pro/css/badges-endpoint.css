@@ -1,0 +1,68 @@
+/* Badges My Account Page */
+:root{
+	--wr-badges-main-color : #550047;
+	--wr-badges-second-color : #333333;
+	--wr-badges-third-color : #cccccc;
+	--wr-badges-fourth-color : #eeeeee;
+	--wr-badges-text-color : #333333;
+	--wr-badges-title-color : #ffffff;
+	--wr-badges-highlight-color :#cc00a0;
+	--type : light;
+}
+
+/* Flex */
+.flexooa{flex:0 0 auto;}
+.flexiia{flex:1 1 auto;}
+.flexdia{flex:2 1 auto;}
+.flexoia{flex:0 1 auto;}
+.flrow{display: flex;flex-direction:row;}
+.flcol{display: flex;flex-direction:column;}
+.padtl5 {padding:5px 0 0 5px}
+
+.be-main-container{color:var(--wr-badges-text-color);flex:0 1 auto;}
+.be-title-container{border-bottom: 1px solid;border-color:var(--wr-badges-main-color)}
+.be-title-text{
+	padding-top:5px;padding-right:10px;padding-bottom:5px;padding-left:10px;box-sizing: border-box;
+	color: var(--wr-badges-title-color);text-transform: uppercase;font-size:16px;background-color:var(--wr-badges-main-color);
+}
+
+.be-badges-container{
+	display:flex;flex-direction: column;
+}
+.be-badge-container{
+	flex:1 1 auto;display:flex;flex-direction: row;box-sizing: border-box;margin:5px 0 0 5px;
+	border:1px solid;border-radius:4px;border-color:var(--wr-badges-main-color);
+	background-color:var(--wr-badges-second-color);
+}
+.be-badge-imgcol{
+	flex:0 1 100px;display:flex;flex-direction: row; min-height:100px;
+	justify-content: center;align-items: center;
+}
+.be-badge-contentcol{
+	flex:1 1 auto;padding:5px;
+	display:flex;flex-direction: column;
+}
+.be-badge-title{
+	color:var(--wr-badges-title-color);
+	font-size:16px;font-weight: bold;
+}
+.be-badge-text{
+	color:var(--wr-badges-fourth-color);
+	flex:1 1 auto;flex-wrap:wrap;
+	text-align: justify; font-size: 14px;
+}
+.be-badge-extraInfo{
+	flex:0 0 auto;width:100%;
+	display: flex;flex-direction: row;flex-wrap:wrap;
+	justify-content: space-between;
+}
+.be-badge-rarity{
+	flex:0 0 auto;color:var(--wr-badges-highlight-color);
+	font-size:10px; font-weight: bold;padding-right:10px;
+}
+.be-badge-date{
+	flex:0 0 auto;color:var(--wr-badges-highlight-color);
+	font-size:10px;
+}
+
+

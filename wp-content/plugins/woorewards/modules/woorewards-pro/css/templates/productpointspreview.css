@@ -1,0 +1,29 @@
+.lwss_selectable.lws-wre-productpointspreview-main{
+	padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;
+	display:flex;flex-direction:row;flex-wrap: wrap;
+}
+.lwss_selectable.lwss_modify.lws-wre-productpointspreview-label{
+    color:#666666;
+	padding-top:0px;padding-right:5px;padding-bottom:0px;padding-left:0px;
+    border-top-width:0px;border-right-width:0px;border-bottom-width:0px;border-left-width:0px;
+	font-size: 15px;
+	line-height:30px;
+	flex:0 1 auto;
+}
+.lwss_selectable.lws-wre-productpointspreview-points{
+	margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;
+	text-align:right;
+	color:#066329;
+	font-size:20px;
+	line-height:30px;
+    font-family: Arial, Helvetica, sans-serif;
+	flex:0 1 auto;
+}
+.lwss_selectable.lws-wre-productpointspreview-labpoints{
+    color:#666666;
+	padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:5px;
+	box-sizing: border-box;
+	font-size: 15px;
+	line-height:30px;
+	flex:0 1 auto;
+}

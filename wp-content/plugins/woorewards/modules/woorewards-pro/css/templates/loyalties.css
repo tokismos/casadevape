@@ -1,0 +1,94 @@
+.lwss_selectable.lws-main-conteneur.levelling{
+	background-color:#fff;
+	width:600px;
+}
+.lwss_selectable.lws-rl-title.levelling{
+	border-top-width:0px;border-right-width:0px;border-bottom-width:1px;border-left-width:0px;
+	margin-top:0px;margin-right:0px;margin-bottom:10px;margin-left:0px;
+	padding-top:10px;padding-right:0px;padding-bottom:10px;padding-left:0px;
+	border-color: #3fa9f5;
+	border-style: solid;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+.lwss_selectable.lws-rl-available-points.levelling{
+    text-align:right;
+    font-size:20px;
+    color:#3fa9f5;
+}
+.lwss_selectable.lws-wr-simple-points.levelling{
+    font-weight:bold;
+}
+.lwss_selectable.lws-rl-conteneur.levelling{
+	padding-top:10px;padding-right:0px;padding-bottom:0px;padding-left:0px;
+}
+.lwss_selectable.lws-ly{
+	width:100%
+}
+.lwss_selectable.lws-ly-title.lws-reward-owned{
+	display: flex;
+	flex-direction: row;
+	color:#035c00;
+	border-bottom:1px solid #035c00;
+}
+.lwss_selectable.lws-ly-content.lws-reward-owned{
+	display: flex;
+	flex-direction: row;
+	color:#035c00;
+}
+.lwss_selectable.lws-ly-title.lws-reward-pending{
+	margin-top:10px;
+	display: flex;
+	flex-direction: row;
+	background-color:#ffffff;
+	border-bottom:1px solid #dddddd;
+}
+.lwss_selectable.lws-ly-content.lws-reward-pending{
+	display: flex;
+	flex-direction: row;
+	background-color:#ffffff;
+}
+.lwss_selectable.lws-ly-name{
+	font-family: "Roboto";
+	font-weight:300;
+	font-size: 20px;
+	text-transform: uppercase;
+	flex: 1 1 auto;
+}
+.lwss_selectable.lws-ly-points{
+	font-family: "Roboto";
+	font-weight:500;
+	font-size: 22px;
+	flex: 0 0 auto;;
+	text-align: right;
+}
+.lwss_selectable.lws-ly-img{
+	padding-top:5px;padding-right:5px;padding-bottom:5px;padding-left:5px;
+	flex: 0 1 5em;
+	flex-direction: row;
+}
+.lwss_selectable.lws-ly-descr{
+	padding-top:5px;padding-right:5px;padding-bottom:5px;padding-left:5px;
+	font-size:15px;
+	font-family: "Roboto";
+	font-weight:normal;
+	flex: 1 1 auto;
+}
+.lwss_selectable.lws-ly-rtitle{
+	padding-top:5px;padding-right:5px;padding-bottom:5px;padding-left:5px;
+	border-top-width:0px;border-right-width:0px;border-bottom-width:2px;border-left-width:0px;
+	border-color: #ddd;
+	border-style: solid;
+	display: flex;
+	flex-direction: row;
+	line-height:30px;
+}
+.lwss_selectable.lws-ly-rdetail{
+	padding-top:5px;padding-right:5px;padding-bottom:5px;padding-left:5px;
+	font-family: "Roboto";
+	font-weight:normal;
+	flex: 1 1 auto;
+}
+.lws-ly-thumbnail{
+	font-size:5em;
+}

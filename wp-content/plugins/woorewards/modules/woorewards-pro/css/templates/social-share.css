@@ -1,0 +1,35 @@
+.lwss_selectable.lws-woorewards-social_share-field-copy.lws_social_share_value_copy{
+	display:flex;flex-direction:row;align-items:center;
+	border:1px solid #959595;border-radius:4px;background-color:#959595;
+}
+.lwss_selectable.lws-woorewards-social_share-field-copy-text{
+	padding-top: 5px;padding-right: 10px;padding-bottom: 5px;padding-left: 10px;
+	background-color:#ffffff;border-radius:4px 0 0 4px;
+	flex:0 1 auto;font-size:12px;overflow: hidden; white-space:nowrap;
+}
+.lwss_selectable.lws-woorewards-social_share-field-copy-icon{
+	border-left:1px solid #959595;padding:0 10px;cursor:pointer;
+	color:#ffffff;
+	align-items: baseline;text-align:center;align-content:center;
+	flex:0 0 20px;
+}
+.lwss_selectable.lwss_modify.lws-woorewards-social_share-description{
+	text-align: justify;
+	color: #666666;
+	padding-bottom: 5px;
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.lwss_selectable.lws-woorewards-social_share-btline{
+	display: flex; flex-direction: row;padding-top: 10px;
+}
+.lwss_selectable.lws-woorewards-social-button{
+	flex:1 1 auto;border-radius: 4px;padding:10px;margin:5px; color:#ffffff;
+	text-align:center; font-size:18px;cursor:pointer;text-decoration: none;line-height:20px;
+}
+.lwss_selectable.lws-woorewards-social-button.lws-icon-facebook2{background-color:#4267b2;}
+.lwss_selectable.lws-woorewards-social-button.lws-icon-pinterest1{background-color:#cd2029;}
+.lwss_selectable.lws-woorewards-social-button.lws-icon-twitter1{background-color:#429cd6;}
+.lwss_selectable.lws-woorewards-social-button.lws-icon-linkedin1{background-color:#0d77b7;}
+.lwss_selectable.lws-woorewards-social-button.lws-icon-whatsapp{background-color:#00e676;}
+.lwss_selectable.lws-woorewards-social-button.lws-icon-lw_mewe{background-color:#007da1;font-size:30px;}

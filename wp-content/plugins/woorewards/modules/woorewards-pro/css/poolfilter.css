@@ -1,0 +1,27 @@
+.lws-wr-userspoints-pool-visibilities{
+	display: flex;flex-direction: column;flex: 1 1 auto;border:solid 1px #ddd;
+	border-radius:2px;padding:5px;margin-top:1px;background-color:#fff;
+}
+.lws-wr-userspoints-pool-visibilities .lws_wre_pool_visibilities{
+	display:flex;flex-direction:row;flex-wrap: wrap;
+}
+.lws-wr-userspoints-pool-visibilities .lws_wre_pool_visibilities .lws-wr-pool-column-checkbox{
+	margin-top:5px;display:flex;flex-direction: row;
+}
+.lws-wr-pool-column-checkbox .lws-wr-pool-column-label{
+	flex:0 1 auto;
+	padding:0 15px 0 5px;
+	white-space: nowrap;
+	font-size:12px;line-height:18px;
+}
+.lws-wr-userspoints-pool-filter-title{
+	font-weight:600;
+	border-bottom:1px solid #ddd;
+	padding-bottom:2px;
+}
+.lws-wr-userspoints-pool-visibilities .lws_wre_pool_visibilities label{padding-left:5px;}
+.lws-pool-hidden-column{display:none !important;}
+.lws-editlist-filter-badge .lac-select-item .lws-wr-select-badge-icon{width:22px;display: table-cell;}
+.lws-editlist-filter-badge .lac-select-item .lws-wr-select-badge-label{margin-left:3px;display: table-cell;vertical-align:middle;}
+.wr-user-badge-bulk .lac-select-item .lws-wr-select-badge-icon{width:22px;display: table-cell;}
+.wr-user-badge-bulk .lac-select-item .lws-wr-select-badge-label{margin-left:3px;display: table-cell;vertical-align:middle;}

@@ -1,0 +1,25 @@
+.lws-wr-shop-coupon-cont{
+    display: flex;flex-direction:column;
+}
+.lwss_selectable.lwss_modify.lws-wr-shop-coupon-head{
+    font-size:20px;width:100%;
+    padding-top:0px;padding-right:0px;padding-bottom:5px;padding-left:0px;
+    border-top-width:0px; border-right-width: 0px; border-bottom-width: 1px; border-left-width: 0px;
+    border-style: solid;
+    border-color: #3fa9f5;
+}
+.lwss_selectable.lws-wr-shop-coupon-table{
+    padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;
+}
+.lwss_selectable.lws-wr-shop-coupon-row{
+    padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;
+}
+.lwss_selectable.lws-wr-shop-coupon-code{
+    padding-top:5px;padding-right:5px;padding-bottom:5px;padding-left:0px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.lwss_selectable.lws-wr-shop-coupon-description{
+	padding-top:5px;padding-right:0px;padding-bottom:5px;padding-left:5px;
+}
+

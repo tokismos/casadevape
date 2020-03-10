@@ -1,0 +1,1514 @@
+# Translation of Plugins - WooRewards &#8211; Loyalty and Rewards program for WooCommerce - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - WooRewards &#8211; Loyalty and Rewards program for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-03-08 15:38:06+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - WooRewards &#8211; Loyalty and Rewards program for WooCommerce - Stable (latest release)\n"
+
+#: js/gutenberg/pointsdisplayer.js:1
+msgid "Shortcode attributes"
+msgstr "Attibuts du code court"
+
+#: js/gutenberg/pointsdisplayer.js:1
+msgid "Style Editor"
+msgstr "Éditeur de style"
+
+#: js/gutenberg/pointsdisplayer.js:1
+msgid "Shortcode preview"
+msgstr "Prévisualisation du code court"
+
+#: woorewards.php:331
+msgid "Restore"
+msgstr "Restaurer"
+
+#: woorewards.php:330
+msgid "We detect a WooRewards licence downgrade: Click here to restore missing configuration."
+msgstr "Nous détectons un déclassement de licence WooRewards : cliquez ici pour restaurer la configuration manquante."
+
+#: woorewards.php:246
+msgid "WooRewards Thumbnail Small"
+msgstr "Petite miniature WooRewards"
+
+#: woorewards.php:245
+msgid "WooRewards Thumbnail"
+msgstr "Miniature WooRewards"
+
+#: woorewards.php:216
+msgid "Point"
+msgid_plural "Points"
+msgstr[0] "Point"
+msgstr[1] "Points"
+
+#: include/core/pointstack.php:153
+msgctxt "Point Merge"
+msgid "Merge from %s"
+msgstr "Fusionner à partir de %s"
+
+#: include/core/pointstack.php:88
+msgctxt "Point Timeout reason"
+msgid "Lost due to inactivity"
+msgstr "Perdu en raison de l’inactivité"
+
+#: include/core/ajax.php:20
+msgid "Point system or user not found."
+msgstr "Système de points ou utilisateur introuvable."
+
+#: include/core/pool.php:621
+msgid "The reward system <b>%s</b>/%s successfully deleted."
+msgstr "Le système de récompense <b>%s</b>/%s a bien été supprimé."
+
+#: include/core/pool.php:604
+msgid "Failed to delete the reward system <b>%s</b>/%s."
+msgstr "Impossible de supprimer le système de récompense <b>%s</b>/%s."
+
+#: include/core/pool.php:555
+msgid "Error occured during reward system saving."
+msgstr "Une erreur s’est produite lors de l’enregistrement du système de récompense."
+
+#: include/ui/editlists/eventlist.php:188
+msgid "The selected Earning Point System cannot be found."
+msgstr "Le système de gain de points sélectionné est introuvable."
+
+#: include/ui/editlists/eventlist.php:165
+msgid "The selected Earning Points System type cannot be found."
+msgstr "Le type de système de gain de points sélectionné est introuvable."
+
+#: include/ui/editlists/eventlist.php:159
+msgid "Earning Points System Type cannot be changed. Delete this and create a new one instead."
+msgstr "Le type de système de gain de points ne peut pas être modifié. Supprimez-le et créez-en un nouveau à la place."
+
+#: include/ui/editlists/eventlist.php:157
+msgid "The selected Earning Points System cannot be found."
+msgstr "Le système de gain de points sélectionné est introuvable."
+
+#: include/ui/editlists/eventlist.php:23
+msgid "Action to perform"
+msgstr "Action à réaliser"
+
+#: include/ui/editlists/unlockablelist.php:131
+msgid "The selected reward type cannot be found."
+msgstr "Le type de récompense sélectionné est introuvable."
+
+#: include/ui/editlists/unlockablelist.php:125
+msgid "The reward type cannot be changed. Delete this and create a new one instead."
+msgstr "Le type de récompense ne peut pas être modifié. Supprimez-le et créez-en un nouveau à la place."
+
+#: include/ui/editlists/unlockablelist.php:123
+#: include/ui/editlists/unlockablelist.php:159
+msgid "The selected reward cannot be found."
+msgstr "La récompense sélectionnée est introuvable."
+
+#: include/ui/editlists/unlockablelist.php:23
+msgid "Reward descriptions"
+msgstr "Descriptions des récompenses"
+
+#: include/ui/editlists/eventlist.php:22
+#: include/ui/editlists/unlockablelist.php:22
+msgid "Public title"
+msgstr "Titre public"
+
+#: include/ui/editlists/unlockablelist.php:21
+msgid "Points cost"
+msgstr "Coût en points"
+
+#: include/ui/editlists/userspoints.php:15
+msgid "Users"
+msgstr "Utilisateurs"
+
+#: include/ui/editlists/userspointsbulkaction.php:71
+msgid "A reward was generated."
+msgid_plural "Few rewards generated."
+msgstr[0] "Une récompense a été générée."
+msgstr[1] "Peu de récompenses générées."
+
+#: include/ui/editlists/userspointsbulkaction.php:69
+msgid "Points added to user."
+msgid_plural "Points added to users."
+msgstr[0] "Points ajoutés à l’utilisateur."
+msgstr[1] "Points ajoutés aux utilisateurs."
+
+#: include/ui/editlists/userspointsbulkaction.php:52
+msgid "Cannot load default loyalty system."
+msgstr "Impossible de charger le système de fidélité par défaut."
+
+#: include/ui/editlists/userspointsbulkaction.php:14
+msgid "Enter '=42' to set a total of 42 points to selected users instead of adding it to current amounts."
+msgstr "Saisissez '=42' pour définir un total de 42 points à des utilisateurs sélectionnés au lieu de les ajouter aux montants actuels."
+
+#: include/ui/templates/displaypoints.php:33
+msgid "More Details"
+msgstr "Plus de détails"
+
+#: include/ui/templates/displaypoints.php:14
+msgid "Loyalty points available"
+msgstr "Points de fidélité disponibles"
+
+#: include/ui/widgets/pointsdisplayer.php:162
+msgid "Select Loyalty System"
+msgstr "Sélectionnez un système de fidélité"
+
+#: include/ui/widgets/pointsdisplayer.php:148
+msgid "A <i>More details</i> page URL"
+msgstr "Une URL de page pour <i>Plus de détails</i>"
+
+#: include/ui/widgets/pointsdisplayer.php:131
+msgctxt "frontend"
+msgid "Current Points"
+msgstr "Points actuels"
+
+#: include/ui/widgets/pointsdisplayer.php:67
+msgid "Let your customers see their points."
+msgstr "Laissez vos clients voir leurs points."
+
+#: include/ui/widgets/pointsdisplayer.php:65
+msgid "WooRewards Points Displayer"
+msgstr "Afficheur de points WooRewards"
+
+#: include/ui/userhistory.php:53
+msgid "Reset to %d"
+msgstr "Réinitialiser à %d"
+
+#: include/ui/durationfield.php:67
+msgid "An integer value greater than zero."
+msgstr "Valeur entière supérieure à zéro."
+
+#: include/ui/durationfield.php:50
+msgid "Years"
+msgstr "Années"
+
+#: include/ui/durationfield.php:49
+msgid "Months"
+msgstr "Mois"
+
+#: include/ui/durationfield.php:48
+msgid "Days"
+msgstr "Jours"
+
+#: include/ui/admin.php:429
+msgid "Here you can customize the look and displayed text of the shortcode/widget"
+msgstr "Vous pouvez personnaliser ici l’apparence et le texte affiché du code court/widget"
+
+#: include/ui/admin.php:418
+msgid "In this Widget, customers can see their Reward Points available, as well as a link to the 'My Account' page to see more details."
+msgstr "Dans ce widget, les clients peuvent voir leurs points de récompense disponibles, ainsi qu’un lien vers la page « mon compte » pour voir plus de détails."
+
+#: include/ui/admin.php:417
+msgid "Display Points Widget"
+msgstr "Widget « Afficher les points »"
+
+#: include/ui/admin.php:399
+msgid "If checked, taxes will be included in the points earned when spending money"
+msgstr "Si cochée, les taxes seront incluses dans les points gagnés en dépensant de l’argent"
+
+#: include/ui/admin.php:388 include/ui/admin.php:392
+msgid "General settings"
+msgstr "Réglages généraux"
+
+#: include/ui/admin.php:373
+msgctxt "Pool title"
+msgid "Title"
+msgstr "Titre"
+
+#: include/ui/admin.php:365
+msgctxt "pool enabled switch"
+msgid "On"
+msgstr "Actif"
+
+#: include/ui/admin.php:364
+msgctxt "pool enabled switch"
+msgid "Off"
+msgstr "Inactif"
+
+#: include/ui/admin.php:325
+msgid "Offer free products, permanent reductions and other kinds of rewards in <b>WooRewards Pro</b>."
+msgstr "Offrez des produits gratuits, des réductions permanentes et d’autres types de récompense dans <b>WooRewards Pro</b>."
+
+#: include/ui/admin.php:315 include/ui/admin.php:326
+msgid "Try <b><a href='https://plugins.longwatchstudio.com/en/product/woorewards-en/'>WooRewards Pro</a></b> for free for 30 days."
+msgstr "Essayez <b><a href='https://plugins.longwatchstudio.com/fr/product/woorewards/'>WooRewards Pro</a></b> gratuitement pendant 30 jours."
+
+#: include/ui/admin.php:314
+msgid "In <b>WooRewards Pro</b>, you can add many other ways to earn points."
+msgstr "Dans <b>WooRewards Pro</b>, vous pouvez ajouter de nombreuses autres façons de gagner des points."
+
+#: include/ui/admin.php:306
+msgid "Watch our <a href='https://youtu.be/yl9WyGOGd_I'>youtube tutorial</a> to help you set up your loyalty program"
+msgstr "Regardez notre <a href='https://youtu.be/yl9WyGOGd_I'>tutoriel youTube</a> pour vous aider à mettre en place votre programme de fidélité"
+
+#: include/ui/admin.php:289
+msgid "Here you can manage the rewards for your customers"
+msgstr "Vous pouvez ici gérer les récompenses pour vos clients"
+
+#: include/ui/admin.php:288 include/ui/editlists/userspoints.php:17
+msgid "Rewards"
+msgstr "Récompenses"
+
+#: include/ui/admin.php:279
+msgid "Here you can manage how your customers earn loyalty points"
+msgstr "Vous pouvez gérer ici la façon dont vos clients gagnent des points de fidélité"
+
+#: include/ui/admin.php:278
+msgid "Earning points"
+msgstr "Gagner des points"
+
+#: include/ui/admin.php:265
+msgid "It seems the prefab pool does not exists. Try to re-activate this plugin. If the problem persists, contact your administrator."
+msgstr "Il semble que la réserve préfabriquée n’existe pas. Essayez de réactiver cette extension. Si ce problème persiste, contactez votre administrateur."
+
+#: include/ui/admin.php:264
+msgid "Loading failure"
+msgstr "Défaillance de chargement"
+
+#: include/ui/admin.php:262
+msgid "No rewarding system available. Try to re-activate WooRewards plugin to install default ones."
+msgstr "Aucun système de récompense disponible. Essayez de réactiver l’extension WooRewards pour installer ceux par défaut."
+
+#: include/ui/admin.php:234
+msgid ""
+"WooRewards Standard uses WooCommerce <i>orders</i> and <i>coupons</i>.\n"
+"<br/>You should install <a href='https://wordpress.org/plugins/woocommerce/' target='_blank'>WooCommerce</a> to have them active.\n"
+"<br/>Or <a href='https://plugins.longwatchstudio.com/product/woorewards/' target='_blank'>upgrade <b>WooRewards</b> to the <b>Pro</b> version</a>\n"
+"and enjoy new ways to earn points (social media, sponsoring... with or without WooCommerce) and a lot of new reward types !"
+msgstr ""
+"WooRewards standard utilise les <i>commandes</i> et <i>codes promo</i> WooCommerce.\n"
+"<br/>Vous devez installer <a href='https://wordpress.org/plugins/woocommerce/' target='_blank'>WooCommerce</a> pour les rendre actives.\n"
+" <br/>Ou <a href='https://plugins.longwatchstudio.com/product/woorewards/' target='_ blank'>mettre à niveau <b>WooRewards</b> vers la version <b>Pro</b></a>\n"
+"et profiter de nouvelles façons de gagner des points (médias sociaux, parrainage... avec ou sans WooCommerce) et beaucoup de nouveaux types de récompenses !"
+
+#: include/ui/admin.php:233
+msgid "Information"
+msgstr "Information"
+
+#: include/ui/admin.php:214
+msgid "Try <a href='https://plugins.longwatchstudio.com/en/product/woorewards-en/'><b>WooRewards Pro</b></a> for free for 30 days."
+msgstr "Essayez <a href='https://plugins.longwatchstudio.com/fr/product/woorewards/'><b>WooRewards Pro</b></a> gratuitement pendant 30 jours."
+
+#: include/ui/admin.php:213
+msgid "In <b>WooRewards Pro</b>, you can create as many loyalty systems as you want."
+msgstr "Dans <b>WooRewards Pro</b>, vous pouvez créer autant de systèmes de fidélité que vous le souhaitez."
+
+#: include/ui/admin.php:162
+msgid "Loyalty System"
+msgstr "Système de fidélité"
+
+#: include/ui/admin.php:153
+msgid "Customers"
+msgstr "Clients"
+
+#: include/ui/admin.php:110
+msgid "The <a>Pro Version</a> adds Events and Levelling systems. Try <a>it</a>"
+msgstr "La <a>version Pro</a> ajoute des systèmes d’évènements et de nivellement. <a>Essayez-la</a>"
+
+#: include/ui/admin.php:109
+msgid "Try the <a>Pro Version</a> for free for 30 days"
+msgstr "Essayez la <a>version Pro</a> gratuitement pendant 30 jours"
+
+#: include/ui/admin.php:108
+msgid "Add fun and achievements for your customers with the <a>Pro Version</a>"
+msgstr "Ajoutez du fun et des réalisations à vos clients avec la version <a>Pro</a>"
+
+#: include/ui/admin.php:45
+msgid "Date"
+msgstr "Date"
+
+#: include/ui/admin.php:43
+msgid "Points History"
+msgstr "Historique des points"
+
+#: include/unlockables/coupon.php:410
+msgctxt "unlockable category"
+msgid "Sponsored"
+msgstr "Sponsorisé"
+
+#: include/unlockables/coupon.php:395
+msgid "See coupons"
+msgstr "Voir les codes promo"
+
+#: include/unlockables/coupon.php:385
+msgid "No coupon"
+msgstr "Aucun code promo"
+
+#: include/unlockables/coupon.php:351
+msgid "Customer Email"
+msgstr "E-mail client"
+
+#: include/unlockables/coupon.php:206
+msgctxt "Cannot be bought cause no discount"
+msgid "No discount"
+msgstr "Aucune remise"
+
+#: include/unlockables/coupon.php:179
+msgid "valid for %1$d %2$s"
+msgstr "valide pour %1$d %2$s"
+
+#: include/unlockables/coupon.php:171
+msgid "%s discount on an order"
+msgstr "%s de remise sur une commande"
+
+#: include/unlockables/coupon.php:156
+msgctxt "getDisplayType"
+msgid "Coupon for WooCommerce"
+msgstr "Code promo pour WooCommerce"
+
+#: include/unlockables/coupon.php:86
+msgid "Discount in percent or fixed price"
+msgstr "Remise en pourcentage ou prix fixe"
+
+#: include/unlockables/coupon.php:85
+msgid "Coupon amount"
+msgstr "Montant du code promo"
+
+#: include/unlockables/coupon.php:84
+msgid "Validity period"
+msgstr "Période de validité"
+
+#: include/unlockables/coupon.php:54
+msgctxt "Coupon Unlockable"
+msgid "Validity period"
+msgstr "Période de validité"
+
+#: include/unlockables/coupon.php:43
+msgctxt "Coupon Unlockable"
+msgid "Coupon amount"
+msgstr "Montant du code promo"
+
+#: include/unlockables/coupon.php:34
+msgid "Percentage discount"
+msgstr "Remise en pourcentage"
+
+#: include/unlockables/coupon.php:34
+msgid "Fixed cart discount"
+msgstr "Remise panier fixe"
+
+#: include/unlockables/coupon.php:28
+msgctxt "Coupon Unlockable"
+msgid "Discount type"
+msgstr "Type de remise"
+
+#: include/unlockables/coupon.php:25
+msgid "Coupon options"
+msgstr "Options de code promo"
+
+#: include/conveniencies/duration.php:55
+msgid "Day"
+msgid_plural "Days"
+msgstr[0] "Jour"
+msgstr[1] "Jours"
+
+#: include/conveniencies/duration.php:52
+msgid "Month"
+msgid_plural "Months"
+msgstr[0] "Mois"
+msgstr[1] "Mois"
+
+#: include/conveniencies/duration.php:49
+msgid "Year"
+msgid_plural "Years"
+msgstr[0] "Année"
+msgstr[1] "Années"
+
+#: include/updater.php:190
+msgid ""
+"Your settings have been migrated during WooRewards update.\n"
+"We tried our best to conserve the same behavior as before but we advise you to check them anyway."
+msgstr ""
+"Vos réglages ont été migrés au cours de cette mise à jour WooRewards.\n"
+"Nous avons essayé de notre mieux de conserver le même comportement, mais nous vous conseillons de les vérifier."
+
+#: include/updater.php:139
+msgid "Standard System"
+msgstr "Système standard"
+
+#: include/abstracts/unlockable.php:669
+msgctxt "Out of valid date range"
+msgid "%d [Delayed]"
+msgstr "%d [retardé]"
+
+#: include/abstracts/unlockable.php:667
+msgctxt "Cannot be redeemed"
+msgid "Not redeemable"
+msgstr "Non remboursable"
+
+#: include/abstracts/unlockable.php:341
+msgid "Error occured during unlockable reward saving."
+msgstr "Une erreur s’est produite lors de l’enregistrement de récompense déverrouillable."
+
+#: include/abstracts/unlockable.php:196
+msgid "Level Title"
+msgstr "Titre du niveau"
+
+#: include/abstracts/unlockable.php:195
+msgid "Featured Image"
+msgstr "Image mise en avant"
+
+#: include/abstracts/unlockable.php:194
+msgid "Validity Ending Date"
+msgstr "Date de fin de validité"
+
+#: include/abstracts/unlockable.php:193
+msgid "Validity Starting Date"
+msgstr "Date de début de validité"
+
+#: include/abstracts/unlockable.php:192 include/ui/admin.php:44
+#: include/ui/widgets/pointsdisplayer.php:137
+msgid "Description"
+msgstr "Description"
+
+#: include/abstracts/unlockable.php:190
+msgid "Cost"
+msgstr "Coût"
+
+#: include/abstracts/unlockable.php:147
+msgctxt "Unlockable validity period end"
+msgid "Active End Date"
+msgstr "Date de fin active"
+
+#: include/abstracts/unlockable.php:140
+msgctxt "Unlockable validity period start"
+msgid "Active Start Date"
+msgstr "Date de début active"
+
+#: include/abstracts/unlockable.php:124
+msgctxt "Unlockable cost"
+msgid "Points needed"
+msgstr "Points nécessaires"
+
+#: include/abstracts/unlockable.php:121
+msgid "Reward Settings"
+msgstr "Réglages de récompense"
+
+#: include/abstracts/unlockable.php:108
+msgctxt "Unlockable Thumbnail"
+msgid "Featured Image"
+msgstr "Image mise en avant"
+
+#: include/abstracts/unlockable.php:99
+msgctxt "Unlockable title"
+msgid "Description"
+msgstr "Description"
+
+#: include/abstracts/unlockable.php:91
+msgctxt "Unlockable title"
+msgid "Title"
+msgstr "Titre"
+
+#: include/abstracts/unlockable.php:85
+msgid "Reward type"
+msgstr "Type de récompense"
+
+#: include/abstracts/unlockable.php:83
+msgid "Reward Information"
+msgstr "Informations sur la récompense"
+
+#: include/abstracts/event.php:427 include/abstracts/unlockable.php:692
+msgid "Events"
+msgstr "Évènements"
+
+#: include/abstracts/event.php:426
+msgid "Achievement"
+msgstr "Réalisation"
+
+#: include/abstracts/event.php:425 include/abstracts/unlockable.php:691
+msgid "Levelling"
+msgstr "Par niveaux"
+
+#: include/abstracts/event.php:424 include/abstracts/unlockable.php:690
+msgid "Standard"
+msgstr "Standard"
+
+#: include/abstracts/event.php:257
+msgid "Error occured during rewarding event saving."
+msgstr "Une erreur s’est produite lors de l’enregistrement d’évènement de récompense."
+
+#: include/abstracts/event.php:115 include/ui/editlists/eventlist.php:21
+msgid "Earned points"
+msgstr "Points acquis"
+
+#: include/abstracts/event.php:85
+msgctxt "Event point multiplier"
+msgid "Earned points"
+msgstr "Points acquis"
+
+#: include/abstracts/event.php:82
+msgid "Method Points"
+msgstr "Points de la méthode"
+
+#: include/abstracts/event.php:74
+msgctxt "Event title"
+msgid "Title"
+msgstr "Titre"
+
+#: include/abstracts/event.php:68
+msgid "Method"
+msgstr "Méthode"
+
+#: include/abstracts/event.php:66
+msgid "Earning Method"
+msgstr "Méthode de gain"
+
+#: include/unlockables/coupon.php:231
+msgid "TESTCODE"
+msgstr "Codetest"
+
+#: include/mails/newreward.php:73
+msgctxt "permanent coupon"
+msgid "(reusable)"
+msgstr "(réutilisable)"
+
+#: include/mails/newreward.php:35
+msgid "Powered by WooRewards"
+msgstr "Propulsé par WooRewards"
+
+#: include/mails/newreward.php:34
+msgid "You just got a new reward !"
+msgstr "Vous venez juste de recevoir une nouvelle récompense !"
+
+#: include/mails/newreward.php:32
+msgid "You've received a new reward"
+msgstr "Vous avez reçu une nouvelle récompense"
+
+#: include/mails/newreward.php:31
+msgid "Sent to customers when they receive a new reward"
+msgstr "Envoyé aux clients lorsqu’ils reçoivent une nouvelle récompense"
+
+#: include/mails/newreward.php:30 include/mails/newreward.php:33
+msgid "New Reward"
+msgstr "Nouvelle récompense"
+
+#: include/events/firstorder.php:40
+msgid "First customer order #%s"
+msgstr "Première commande client #%s"
+
+#: include/events/firstorder.php:12
+msgctxt "getDisplayType"
+msgid "Pass a first order"
+msgstr "Passer une première commande"
+
+#: include/events/ordercompleted.php:37
+msgid "Order #%s validated"
+msgstr "Commande #%s validée"
+
+#: include/events/ordercompleted.php:12
+msgctxt "getDisplayType"
+msgid "Pass an order"
+msgstr "Passer une commande"
+
+#: include/events/firstorder.php:70 include/events/orderamount.php:199
+#: include/events/ordercompleted.php:49
+msgid "Order"
+msgstr "Commande"
+
+#: include/events/firstorder.php:69 include/events/orderamount.php:197
+#: include/events/ordercompleted.php:48 include/unlockables/coupon.php:408
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: include/events/orderamount.php:186
+msgctxt "Point per money spent"
+msgid "%1$s %2$s / %3$s %4$s"
+msgstr "%1$s %2$s/%3$s %4$s"
+
+#: include/events/orderamount.php:145
+msgid "Spent %1$s from order #%2$s"
+msgstr "Dépensé %1$s dans la commande #%2$s"
+
+#: include/events/orderamount.php:108
+msgctxt "getDisplayType"
+msgid "Spend money"
+msgstr "Dépenser de l’argent"
+
+#: include/events/orderamount.php:25
+msgctxt "Order Amount Event money diviser"
+msgid "Money spent (%s)"
+msgstr "Argent dépensé (%s)"
+
+#: wp-admin-options.php:161
+msgid "Nothing to do here"
+msgstr "Rien à faire ici"
+
+#: wp-admin-options.php:143
+msgid "Settings saved."
+msgstr "Réglages enregistrés."
+
+#: wp-admin-options.php:102
+msgid "Requested loyalty system cannot be loaded or created."
+msgstr "Le système de fidélité demandé ne peut pas être chargé ou créé."
+
+#: wp-admin-options.php:86
+msgid "<strong>ERROR</strong>: pool undefined."
+msgstr "<strong>Erreur</strong> : le pool non défini."
+
+#: wp-admin-options.php:82
+msgid "<strong>ERROR</strong>: wrong options tab."
+msgstr "<strong> Erreur</strong> : onglet d’options incorrect."
+
+#: wp-admin-options.php:78
+msgid "<strong>ERROR</strong>: options page not found."
+msgstr "<strong>Erreur</strong> : page d’options non trouvée."
+
+#: wp-admin-options.php:56
+msgid "Sorry, you are not allowed to delete these items."
+msgstr "Désolé, vous n’êtes pas autorisé à supprimer ces éléments."
+
+#: wp-admin-options.php:48
+msgid "Sorry, you are not allowed to manage these options."
+msgstr "Désolé, vous n’êtes pas autorisé à gérer ces options."
+
+#: wp-admin-options.php:47 wp-admin-options.php:55
+msgid "You need a higher level of permission."
+msgstr "Vous avez besoin d’un plus haut niveau de droit."
+
+#: wp-admin-options.php:30
+msgid "<strong>ERROR</strong>: wrong options page."
+msgstr "<strong> Erreur</strong> : mauvaise page d’options."
+
+#: assets/lws-adminpanel/pages.php:459
+msgid "Please confirm or cancel the active form before submit that page."
+msgstr "Veuillez confirmer ou annuler la saisie du formulaire actif avant d’envoyer cette page."
+
+#: assets/lws-adminpanel/editlist.php:154
+msgctxt "editlist groupby"
+msgid "Add a group"
+msgstr "Ajouter un groupe"
+
+#: assets/lws-adminpanel/argparser.php:196
+msgctxt "Input array validation"
+msgid "%s is not a decimal number"
+msgstr "%s n’est pas un nombre décimal"
+
+#: assets/lws-adminpanel/pages/class-page.php:493
+msgid "Advanced Settings"
+msgstr "Réglages avancés"
+
+#. Description of the plugin
+msgid "Improve your customers experience with Rewards, Levels and Achievements. Use it with WooCommerce to set up a loyalty program."
+msgstr "Améliorez l’expérience de vos clients avec des récompenses, niveaux et succès. Utilisez-le avec WooCommerce pour mettre en place un programme de fidélité."
+
+#: assets/lws-adminpanel/pages/class-page.php:755
+msgctxt "post deletion"
+msgid "Unavailable action."
+msgstr "Action non disponible."
+
+#: assets/lws-adminpanel/argparser.php:290
+msgctxt "Input array validation"
+msgid "Missing value for %s"
+msgstr "Valeur manquante pour %s"
+
+#: assets/lws-adminpanel/argparser.php:274
+msgctxt "Input array validation"
+msgid "Missing required value for %s"
+msgstr "Valeur nécessaire manquante pour %s"
+
+#: assets/lws-adminpanel/argparser.php:167
+msgid "A value in %s"
+msgstr "Une valeur en %s"
+
+#: assets/lws-adminpanel/argparser.php:158
+msgctxt "Input array validation"
+msgid "%s value rejected"
+msgstr "%s valeur rejetée"
+
+#: assets/lws-adminpanel/pages/class-page.php:702
+msgid "Action rejected for current user. Insufficient capacities."
+msgstr "Action refusée pour l’utilisateur courant. Droits insuffisants."
+
+#: assets/lws-adminpanel/pages/class-page.php:659
+msgid "Publish"
+msgstr "Publier"
+
+#: assets/lws-adminpanel/credits/query.php:320
+msgid "<p class='lws-adminpanel-activation-error'>The license server cannot validate your request. Please check your values and try again.</p>"
+msgstr "<p class='lws-adminpanel-activation-error'>Le serveur de licence ne peut pas valider votre demande. Veuillez vérifier vos valeurs et réessayer.</p>"
+
+#: assets/lws-adminpanel/credits/showcase.php:61
+msgid "More..."
+msgstr "Plus…"
+
+#: assets/lws-adminpanel/lws-adminpanel.php:266
+msgid "At least one value is unknown."
+msgstr "Une valeur au moins est inconnue."
+
+#: assets/lws-adminpanel/pages/field/class-lacchecklist.php:39
+msgid "Select..."
+msgstr "Sélectionner…"
+
+#: assets/lws-adminpanel/pages/class-page.php:767
+msgid "Element permanently removed."
+msgstr "Élément supprimé de manière permanente."
+
+#: assets/lws-adminpanel/pages/class-page.php:761
+msgctxt "post deletion"
+msgid "Security check failed."
+msgstr "Vérification de sécurité échouée."
+
+#: assets/lws-adminpanel/pages/class-page.php:651
+msgctxt "Singular object edition screen"
+msgid "Update"
+msgstr "Mise à jour"
+
+#: assets/lws-adminpanel/pages/class-page.php:651
+msgctxt "Singular object creation screen"
+msgid "Create"
+msgstr "Création"
+
+#: assets/lws-adminpanel/pages/class-page.php:634
+msgctxt "Singular object edition screen"
+msgid "Permanent deletion"
+msgstr "Suppression permanente"
+
+#: assets/lws-adminpanel/pages/class-page.php:633
+msgctxt "Singular object edition screen"
+msgid "This element will be permanently removed. Are you sure?"
+msgstr "Cet élément sera supprimé de manière permanente. Confirmez-vous ?"
+
+#: assets/lws-adminpanel/pages/class-page.php:632
+msgctxt "Singular object edition screen"
+msgid "Cancel"
+msgstr "Annuler"
+
+#: assets/lws-adminpanel/pages/class-page.php:631
+msgctxt "Singular object edition screen"
+msgid "I really want to delete it"
+msgstr "Je veux vraiment le supprimer"
+
+#: assets/lws-adminpanel/pages/class-page.php:630
+msgctxt "Singular object edition screen"
+msgid "Delete element"
+msgstr "Supprimer l’élément"
+
+#: assets/lws-adminpanel/pages/class-page.php:540
+msgid "Activate your licence"
+msgstr "Activer votre license"
+
+#: assets/lws-adminpanel/pages/class-page.php:539
+msgid "Join Us on Discord"
+msgstr "Rejoignez-nous sur Discord"
+
+#: assets/lws-adminpanel/pages/class-page.php:538
+msgid "Try the Pro Version for free"
+msgstr "Essayez la version Pro gratuitement"
+
+#: include/ui/admin.php:113 assets/lws-adminpanel/pages/class-page.php:159
+#: assets/lws-adminpanel/pages/class-page.php:730
+msgid "Your settings have been saved."
+msgstr "Vos réglages ont été enregistrés."
+
+#: assets/lws-adminpanel/argparser.php:163
+msgctxt "Input array validation"
+msgid "%s is not an array"
+msgstr "%s n’est pas un tableau"
+
+#: assets/lws-adminpanel/credits/query.php:100
+msgid "Your license expires the %s."
+msgstr "Votre licence expire le %s."
+
+#: woorewards.php:126
+msgid "https://plugins.longwatchstudio.com/en/product/woorewards-en/"
+msgstr "https://plugins.longwatchstudio.com/fr/product/woorewards/"
+
+#: woorewards.php:117
+msgid "Add Licence Key"
+msgstr "Ajouter une clé de licence"
+
+#: assets/lws-adminpanel/pages/field/class-stygen.php:131
+msgid "Snippet unknown"
+msgstr "Extrait inconnu"
+
+#: assets/lws-adminpanel/mailer.php:329
+msgid ""
+"\n"
+"\t\t\t\t\t\t\tOnce you've finished the email settings, <b>save your changes</b><br/>\n"
+"\t\t\t\t\t\t\tYou will then see the result in the style editor below<br/>\n"
+"\t\t\t\t\t\t\tSelect the elements you wish to change and have fun!\n"
+"\t\t\t\t\t\t"
+msgstr ""
+"\n"
+"\n"
+"\n"
+"Une fois que vous avez fini les réglages de l’e-mail, <b>enregistrez vos modifications</b><br/>\n"
+"Vous verrez alors le résultat dans l’éditeur de style ci-dessous<br/>\n"
+"Sélectionnez les éléments que vous souhaitez modifier et amusez-vous!"
+
+#: assets/lws-adminpanel/mailer.php:345
+msgid "Email details"
+msgstr "Détails de l’e-mail"
+
+#: assets/lws-adminpanel/mailer.php:323
+msgid "%s Email Settings"
+msgstr "Réglages de l’e-mail %s"
+
+#: assets/lws-adminpanel/mailer.php:253
+msgid "This is a test."
+msgstr "Ceci est un test."
+
+#: assets/lws-adminpanel/lws-adminpanel.php:449
+msgid "The trial period of plugin <b>%s</b> expired the <i>%s</i>. We hope you enjoyed it and expect you soon on <a href='%s' target='_blank'>%s</a>."
+msgstr "La période d’essai de l’extension <b>%s</b> a expiré le <i>%s</i>. Nous espérons que vous l’avez appréciée et vous attendons sur <a href='%s' target='_blank'>%s</a>."
+
+#: include/ui/admin.php:396
+msgid "Includes taxes"
+msgstr "Inclure la TVA"
+
+#: assets/lws-adminpanel/pages/field/class-stygen.php:44
+msgctxt "Stygen button"
+msgid "Reset Style"
+msgstr "Réinitialiser les styles"
+
+#: assets/lws-adminpanel/credits/query.php:112
+msgid "Set another license key"
+msgstr "Renseignez une autre clé de licence"
+
+#: assets/lws-adminpanel/credits/query.php:235
+msgid "Install PRO version now"
+msgstr "Installez la version PRO maintenant"
+
+#: assets/lws-adminpanel/credits/query.php:359
+msgid "Now, you can check available plugin updates."
+msgstr "Maintenant, vous pouvez vérifier s’il y a des mises à jour disponibles pour cette extension."
+
+#: assets/lws-adminpanel/pages/field/class-stygen.php:43
+msgid "Select an element to start modifying its style"
+msgstr "Sélectionnez un élément pour commencer à modifier son style"
+
+#: assets/lws-adminpanel/pages/field/class-stygen.php:42
+msgid "Available Elements"
+msgstr "Éléments disponibles"
+
+#: assets/lws-adminpanel/argparser.php:190
+msgctxt "Input array validation"
+msgid "%s must be equal or greater than zero"
+msgstr "%s doit être égal ou supérieur à 0"
+
+#: assets/lws-adminpanel/argparser.php:185
+msgctxt "Input array validation"
+msgid "%s is not valid"
+msgstr "%s n’est pas valide"
+
+#: assets/lws-adminpanel/credits/query.php:149
+msgid "<p>The plugin <strong>%s</strong> from <a href='%s'>%s</a> needs activation</p><p>Contact your administrator.</p>"
+msgstr "<p>L’extension <strong>%s</strong> de <a href='%s'>%s</a> nécessite une activation</p><p>Contactez votre administrateur.</p>"
+
+#: assets/lws-adminpanel/credits/query.php:78
+msgid "This activation actually use the license key <b>%s</b>"
+msgstr "Cette extension utilise actuellement la clé de licence <b>%s</b>"
+
+#: assets/lws-adminpanel/credits/query.php:78
+#: assets/lws-adminpanel/credits/query.php:131
+msgid "You actually use a <b>hacked</b> version."
+msgstr "Vous utilisez actuellement une version <b>crackée</b>"
+
+#: assets/lws-adminpanel/credits/query.php:83
+#: assets/lws-adminpanel/credits/query.php:138
+msgid "Visit <a href='%s'>%s</a> to discover other offers."
+msgstr "Visitez <a href='%s'>%s</a> pour découvrir d’autres offres."
+
+#: assets/lws-adminpanel/credits/query.php:81
+#: assets/lws-adminpanel/credits/query.php:136
+msgid "%s - Activated"
+msgstr "%s - Activé"
+
+#: include/ui/editlists/userspointsbulkaction.php:58
+msgid "Commercial operation"
+msgstr "Opération commerciale"
+
+#: include/ui/editlists/userspointsbulkaction.php:15
+msgid "Add/Substract points"
+msgstr "Ajouter/soustraire des points"
+
+#: include/mails/newreward.php:66
+msgid "Expiration Date"
+msgstr "Date d’expiration"
+
+#: include/mails/newreward.php:67
+msgid "Coupon Details"
+msgstr "Détails du code promo"
+
+#: include/ui/admin.php:47 include/ui/userhistory.php:54
+msgid "Total"
+msgstr "Total"
+
+#: assets/lws-adminpanel/mailer.php:382
+msgid "Receiver Email"
+msgstr "Destinataire"
+
+#: include/ui/admin.php:199
+msgid "Here you can see and manage your customers reward points"
+msgstr "Ici vous pouvez voir et modifier les points de vos clients"
+
+#: assets/lws-adminpanel/mailer.php:323
+msgid "Email Settings"
+msgstr "Réglages des e-mails"
+
+#: include/ui/admin.php:274
+msgid "General Settings"
+msgstr "Réglages généraux"
+
+#: assets/lws-adminpanel/pages.php:458
+msgid "Changes not commited."
+msgstr "Les modifications n’ont pas été commitées."
+
+#. Author URI of the plugin
+msgid "https://longwatchstudio.com"
+msgstr "https://longwatchstudio.com"
+
+#. Plugin Name of the plugin
+#: include/ui/admin.php:138 woorewards.php:294
+msgid "WooRewards"
+msgstr "WooRewards"
+
+#: woorewards.php:136
+msgid "https://plugins.longwatchstudio.com/en/documentation-en/woorewards/"
+msgstr "https://plugins.longwatchstudio.com/fr/documentation/woorewards/"
+
+#: woorewards.php:107
+msgid "Help"
+msgstr "Aide"
+
+#: include/ui/admin.php:46
+msgid "Points"
+msgstr "Points"
+
+#: include/mails/newreward.php:68
+msgid "Coupon Code"
+msgstr "Code Promo"
+
+#: include/mails/newreward.php:69
+msgid "Coupon Value"
+msgstr "Valeur du code promo"
+
+#: include/unlockables/coupon.php:409
+msgid "Coupon"
+msgstr "Promos"
+
+#: assets/lws-adminpanel/mailer.php:412
+msgid "Test email is not valid."
+msgstr "L’e-mail de test n’est pas valide."
+
+#: assets/lws-adminpanel/mailer.php:409
+msgid "Test email sent."
+msgstr "E-mail de test envoyé."
+
+#: assets/lws-adminpanel/mailer.php:391
+msgid "Send test email"
+msgstr "Envoyer l’e-mail de test"
+
+#: assets/lws-adminpanel/mailer.php:385
+msgid "Test your email to see how it looks"
+msgstr "Testez l’envoi de l’e-mail pour voir à quoi il ressemble"
+
+#: include/abstracts/event.php:116 include/abstracts/unlockable.php:191
+#: include/ui/widgets/pointsdisplayer.php:128 js/gutenberg/pointsdisplayer.js:1
+msgid "Title"
+msgstr "Titre"
+
+#: assets/lws-adminpanel/mailer.php:350
+msgid "Subject"
+msgstr "Sujet"
+
+#: assets/lws-adminpanel/mailer.php:337
+msgid "Footer text"
+msgstr "Texte de pied de page"
+
+#: assets/lws-adminpanel/mailer.php:336
+msgid "Header picture"
+msgstr "Image d’en-tête"
+
+#: include/ui/admin.php:191
+msgid "Search..."
+msgstr "Rechercher..."
+
+#: include/ui/admin.php:200
+msgid "You can view the points <b>history</b> by clicking the points total in the table"
+msgstr "Vous pouvez voir <b>l’historique</b> des points en cliquant sur le total des points d’un client dans la table"
+
+#: include/ui/admin.php:198
+msgid "Points Management"
+msgstr "Gestion des points"
+
+#: include/ui/admin.php:173 woorewards.php:104 wp-admin-options.php:21
+msgid "Settings"
+msgstr "Réglages"
+
+#: assets/lws-adminpanel/pseudocss.php:246
+msgctxt "Default css values"
+msgid "Reset"
+msgstr "Réinitialiser"
+
+#: assets/lws-adminpanel/pseudocss.php:241
+msgid "Default CSS values"
+msgstr "Valeurs CSS par défaut"
+
+#: assets/lws-adminpanel/pages.php:490
+msgid "Show All Items"
+msgstr "Tout afficher"
+
+#: assets/lws-adminpanel/pages.php:489
+msgid " didn't match any items"
+msgstr " ne correspond à aucun élément"
+
+#: assets/lws-adminpanel/pages.php:477
+msgctxt "Font weight"
+msgid "Black"
+msgstr "Noir"
+
+#: assets/lws-adminpanel/pages.php:476
+msgctxt "Font weight"
+msgid "Extra Bold"
+msgstr "Très gras"
+
+#: assets/lws-adminpanel/pages.php:475
+msgctxt "Font weight"
+msgid "Bold"
+msgstr "Gras"
+
+#: assets/lws-adminpanel/pages.php:474
+msgctxt "Font weight"
+msgid "Semi Bold"
+msgstr "Semi gras"
+
+#: assets/lws-adminpanel/pages.php:473
+msgctxt "Font weight"
+msgid "Medium"
+msgstr "Moyen"
+
+#: assets/lws-adminpanel/pages.php:471 assets/lws-adminpanel/pages.php:472
+msgctxt "Font weight"
+msgid "Normal"
+msgstr "Normal"
+
+#: assets/lws-adminpanel/pages.php:470
+msgctxt "Font weight"
+msgid "Light"
+msgstr "Clair"
+
+#: assets/lws-adminpanel/pages.php:469
+msgctxt "Font weight"
+msgid "Extra Light"
+msgstr "Extra fin"
+
+#: assets/lws-adminpanel/pages.php:468
+msgctxt "Font weight"
+msgid "Thin"
+msgstr "Fin"
+
+#: assets/lws-adminpanel/pages.php:466
+msgid "Show less"
+msgstr "Afficher moins"
+
+#: assets/lws-adminpanel/pages.php:465
+msgid "Show more"
+msgstr "Afficher plus"
+
+#: assets/lws-adminpanel/pages.php:464
+msgid "Select a font"
+msgstr "Sélectionnez une police"
+
+#: assets/lws-adminpanel/pages.php:463
+msgid "Please, select an item."
+msgstr "Veuillez sélectionner un élément."
+
+#: assets/lws-adminpanel/pages.php:462
+msgid "An error occured, please try later."
+msgstr "Une erreur est survenue, veuillez essayer à nouveau plus tard."
+
+#: assets/lws-adminpanel/pages.php:461
+msgid "Update error, please check the values."
+msgstr "Erreur de mise à jour, vérifiez les valeurs."
+
+#: assets/lws-adminpanel/pages.php:460
+msgid "Do you really want to delete the line?"
+msgstr "Voulez-vous vraiment supprimer la ligne ?"
+
+#: assets/lws-adminpanel/pages/class-page.php:545
+msgid "%1$s Admin Panel %2$s"
+msgstr "%1$s Admin Panel %2$s"
+
+#: assets/lws-adminpanel/pages/class-page.php:537
+msgid "Support"
+msgstr "Support"
+
+#: assets/lws-adminpanel/pages/class-page.php:536
+msgid "Other Plugins"
+msgstr "Autres extensions"
+
+#: assets/lws-adminpanel/pages/class-page.php:535
+msgid "Documentation"
+msgstr "Documentation"
+
+#: assets/lws-adminpanel/pages/class-page.php:546
+msgid "https://plugins.longwatchstudio.com/en/documentation/"
+msgstr "https://plugins.longwatchstudio.com/en/documentation/"
+
+#: assets/lws-adminpanel/pages/class-page.php:543
+#: assets/lws-adminpanel/pages/class-page.php:547
+msgid "https://plugins.longwatchstudio.com/en/home/"
+msgstr "https://plugins.longwatchstudio.com/en/home/"
+
+#: assets/lws-adminpanel/pages/field/class-googleapikey.php:26
+msgid "You should define a Google API key in this settings."
+msgstr "Vous devriez définir une clé Google API dans ces réglages."
+
+#: assets/lws-adminpanel/pages/field/class-googleapikey.php:24
+msgid "Your Google API key"
+msgstr "Votre clé d’API Google"
+
+#: assets/lws-adminpanel/pages/field/class-media.php:34
+msgid "Use the selected item"
+msgstr "Utilisez l’élément sélectionné"
+
+#: assets/lws-adminpanel/pages/field/class-media.php:33
+msgid "Select media"
+msgstr "Sélectionnez un média"
+
+#: assets/lws-adminpanel/pages/field/class-media.php:32
+msgid "Remove"
+msgstr "Supprimer"
+
+#: assets/lws-adminpanel/pages/field/class-media.php:31
+msgid "Pick a media"
+msgstr "Choisissez un média"
+
+#: assets/lws-adminpanel/pages/field/class-cssbutton.php:97
+msgctxt "CSS color edition"
+msgid "On Click Background"
+msgstr "Arrière-plan au clic"
+
+#: assets/lws-adminpanel/pages/field/class-cssbutton.php:96
+msgctxt "CSS color edition"
+msgid "On Hover Background"
+msgstr "Arrière-plan au survol"
+
+#: assets/lws-adminpanel/pages/field/class-cssbutton.php:95
+msgctxt "CSS color edition"
+msgid "Normal Background"
+msgstr "Arrière-plan normal"
+
+#: assets/lws-adminpanel/pages/field/class-cssbutton.php:90
+msgctxt "CSS color edition"
+msgid "On Click Text"
+msgstr "Au clic"
+
+#: assets/lws-adminpanel/pages/field/class-cssbutton.php:89
+msgctxt "CSS color edition"
+msgid "On Hover Text"
+msgstr "Au survol"
+
+#: assets/lws-adminpanel/pages/field/class-cssbutton.php:88
+msgctxt "CSS color edition"
+msgid "Normal Text"
+msgstr "Texte normal"
+
+#: assets/lws-adminpanel/pages/field/class-cssbutton.php:71
+msgctxt "LWSS button colors"
+msgid "Background"
+msgstr "Arrière-plan"
+
+#: assets/lws-adminpanel/pages/field/class-cssbutton.php:70
+msgctxt "LWSS button colors"
+msgid "Text"
+msgstr "Texte"
+
+#: assets/lws-adminpanel/pages/field/class-cssbutton.php:69
+msgctxt "LWSS button colors"
+msgid "Focused"
+msgstr "Focus"
+
+#: assets/lws-adminpanel/pages/field/class-cssbutton.php:68
+msgctxt "LWSS button colors"
+msgid "Over"
+msgstr "Survol"
+
+#: assets/lws-adminpanel/pages/field/class-cssbutton.php:67
+msgctxt "LWSS button colors"
+msgid "Normal"
+msgstr "Normal"
+
+#: assets/lws-adminpanel/pages/field/class-font.php:83
+msgctxt "LWSS font text demo"
+msgid "This is a sample text"
+msgstr "Ceci est un exemple"
+
+#: assets/lws-adminpanel/pages/field/class-border.php:155
+msgctxt "LWSS border text demo"
+msgid "This is a sample text"
+msgstr "Ceci est un exemple"
+
+#: assets/lws-adminpanel/pages/field/class-border.php:83
+msgctxt "CSS color edition"
+msgid "Background"
+msgstr "Arrière-plan"
+
+#: assets/lws-adminpanel/pages/field/class-border.php:81
+msgctxt "CSS color edition"
+msgid "Border Color"
+msgstr "Couleur de bordure"
+
+#: assets/lws-adminpanel/pages/field/class-border.php:79
+msgctxt "CSS border size editoin"
+msgid "Radius"
+msgstr "Rayon"
+
+#: assets/lws-adminpanel/pages/field/class-border.php:77
+msgctxt "CSS border size editoin"
+msgid "Border"
+msgstr "Bordure"
+
+#: assets/lws-adminpanel/pages/field/class-border.php:75
+msgctxt "CSS border size editoin"
+msgid "Padding"
+msgstr "Padding"
+
+#: assets/lws-adminpanel/pages/field/class-border.php:73
+msgctxt "CSS border size edition"
+msgid "Margin"
+msgstr "Marge"
+
+#: assets/lws-adminpanel/pages/field/class-border.php:49
+msgctxt "CSS radius tooltip"
+msgid ""
+"1 to 4 values accepted<br/>\n"
+"<p class='lwss-tooltip-exemple'>5px | Sets a global border radius of 5 pixels</p>\n"
+"<p class='lwss-tooltip-exemple'>1px 2px 3px 4px | Sets top, right, bottom, left border radius</p>"
+msgstr "1 à 4 valeurs acceptées <br/><p class='lwss-tooltip-exemple'> 5px | Définit un rayon de bordure global de 5 pixels </p><p class='lwss-tooltip-exemple'> 1px 2px 3px 4px | Définit le rayon haut, droit, bas et gauche </p>"
+
+#: assets/lws-adminpanel/pages/field/class-border.php:41
+msgctxt "CSS border tooltip"
+msgid ""
+"1 to 4 values accepted<br/>\n"
+"<p class='lwss-tooltip-exemple'>5px | Sets a global border size of 5 pixels</p>\n"
+"<p class='lwss-tooltip-exemple'>1px 2px 3px 4px | Sets top, right, bottom, left borders</p>"
+msgstr "1 à 4 valeurs acceptées <br/><p class='lwss-tooltip-exemple'> 5px | Définit une taille de bordure globale de 5 pixels </p><p class='lwss-tooltip-exemple'> 1px 2px 3px 4px | Définit la bordure supérieure, droite, inférieure, gauche </p>"
+
+#: assets/lws-adminpanel/pages/field/class-border.php:33
+msgctxt "CSS padding tooltip"
+msgid ""
+"1 to 4 values accepted<br/>\n"
+"<p class='lwss-tooltip-exemple'>5px | Sets a global padding of 5 pixels</p>\n"
+"<p class='lwss-tooltip-exemple'>1px 2px 3px 4px | Sets top, right, bottom, left padding</p>"
+msgstr "1 à 4 valeurs acceptées <br/><p class='lwss-tooltip-exemple'> 5px | Définit un padding global de 5 pixels </p><p class='lwss-tooltip-exemple'> 1px 2px 3px 4px | Définit le padding haut, droite, bas et gauche </p>"
+
+#: assets/lws-adminpanel/pages/field/class-border.php:25
+msgctxt "CSS margin tooltip"
+msgid ""
+"1 to 4 values accepted<br/>\n"
+"<p class='lwss-tooltip-exemple'>5px | Sets a global margin of 5 pixels</p>\n"
+"<p class='lwss-tooltip-exemple'>1px 2px 3px 4px | Sets top, right, bottom, left margins</p>"
+msgstr "1 à 4 valeurs acceptées <br/><p class='lwss-tooltip-exemple'> 5px | Définit une marge globale de 5 pixels </p><p class='lwss-tooltip-exemple'> 1px 2px 3px 4px | Définit les marges supérieure, droite, inférieure et gauche </p>"
+
+#: assets/lws-adminpanel/lws-adminpanel.php:367
+msgid "Google account"
+msgstr "Compte Google"
+
+#: assets/lws-adminpanel/lws-adminpanel.php:363
+msgid "You MUST be logged in to your Google account to generate a key."
+msgstr "Vous devez être connecté à votre compte Google pour générer une clé."
+
+#: assets/lws-adminpanel/lws-adminpanel.php:360
+msgid "or <a target='_blank' href='%s'>click here to Get a Google API KEY</a>"
+msgstr "ou <a target='_blank' href='%s'>cliquez ici pour obtenir une clé d’API Google </a>"
+
+#: assets/lws-adminpanel/lws-adminpanel.php:359
+msgid "Generate API Key"
+msgstr "Générer une clé d'API"
+
+#: assets/lws-adminpanel/lws-adminpanel.php:356
+msgid "Used to get google fonts."
+msgstr "Utilisé pour obtenir les polices Google."
+
+#: assets/lws-adminpanel/editlist.php:418
+msgid "Quick Edit"
+msgstr "Édition rapide"
+
+#: assets/lws-adminpanel/editlist.php:417
+msgid "Copy"
+msgstr "Copier"
+
+#: assets/lws-adminpanel/editlist.php:399
+msgid "Save"
+msgstr "Enregistrer"
+
+#: assets/lws-adminpanel/editlist.php:398
+msgid "Cancel"
+msgstr "Annuler"
+
+#: assets/lws-adminpanel/pages/field/class-taglist.php:21
+#: assets/lws-adminpanel/editlist.php:295
+msgid "Add"
+msgstr "Ajouter"
+
+#: assets/lws-adminpanel/editlist.php:265
+msgid "Apply"
+msgstr "Appliquer"
+
+#: assets/lws-adminpanel/editlist/class-pager.php:111
+msgctxt "Total page number"
+msgid "/ %d"
+msgid_plural "/ %d"
+msgstr[0] "/ %d"
+msgstr[1] "/ %d"
+
+#: assets/lws-adminpanel/editlist/class-pager.php:91
+msgid "Items per page"
+msgstr "Éléments par page"
+
+#: assets/lws-adminpanel/editlist/class-pager.php:84
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d élément"
+msgstr[1] "%d éléments"
+
+#: assets/lws-adminpanel/editlist/class-filter.php:91
+msgid "Search"
+msgstr "Rechercher"
+
+#: assets/lws-adminpanel/argparser.php:284
+msgctxt "Input array validation"
+msgid "Missing entry %s"
+msgstr "Entrée manquante %s"
+
+#: assets/lws-adminpanel/argparser.php:357
+msgctxt "Input array validation"
+msgid "Unknown entry %s"
+msgstr "Entrée inconnue %s"
+
+#: assets/lws-adminpanel/argparser.php:224
+msgctxt "Input array validation"
+msgid "%s is empty"
+msgstr "%s est vide"
+
+#: assets/lws-adminpanel/argparser.php:212
+msgctxt "Input array validation"
+msgid "%s is not a string"
+msgstr "%s n’est pas une chaîne de caractères."
+
+#: assets/lws-adminpanel/argparser.php:198
+#: assets/lws-adminpanel/argparser.php:208
+msgctxt "Input array validation"
+msgid "%s must be greater than zero"
+msgstr "%s doit être plus grand que zéro"
+
+#: assets/lws-adminpanel/argparser.php:206
+msgctxt "Input array validation"
+msgid "%s is not a number"
+msgstr "%s n’est pas un nombre"
+
+#: assets/lws-adminpanel/credits/update.php:240
+msgid "Could not create Temporary file."
+msgstr "Impossible de créer un fichier temporaire."
+
+#: assets/lws-adminpanel/credits/update.php:234
+msgid "Invalid URL Provided."
+msgstr "L’URL fournie n’est pas valide."
+
+#: assets/lws-adminpanel/credits/query.php:161
+msgid "Pro Version"
+msgstr "Version Pro"
+
+#. Plugin URI of the plugin
+#: assets/lws-adminpanel/credits/query.php:397
+#: assets/lws-adminpanel/credits/query.php:399
+#: assets/lws-adminpanel/credits/update.php:309
+#: assets/lws-adminpanel/credits/update.php:311
+msgid "https://plugins.longwatchstudio.com"
+msgstr "https://plugins.longwatchstudio.com"
+
+#. Author of the plugin
+#: assets/lws-adminpanel/credits/query.php:395
+#: assets/lws-adminpanel/credits/update.php:307
+msgid "Long Watch Studio"
+msgstr "Long Watch Studio"
+
+#: assets/lws-adminpanel/credits/query.php:368
+msgid "<p>License denied.</p>"
+msgstr "<p>Licence refusée.</p>"
+
+#: assets/lws-adminpanel/credits/query.php:356
+msgid "<p><strong>%s</strong> is now activated.</p>"
+msgstr "<p><strong>%s</strong> est maintenant activé.</p>"
+
+#: assets/lws-adminpanel/credits/query.php:349
+msgid "<p>Corrupted data from license server.</p>"
+msgstr "<p>Données corrompues reçues depuis le serveur de licences.</p>"
+
+#: assets/lws-adminpanel/credits/query.php:341
+msgid "<p>Operation abort, detect a man-in-the-middle attack.</p>"
+msgstr "<p>Opération avortée, attaque man-in-the-middle détectée.</p>"
+
+#: assets/lws-adminpanel/credits/query.php:311
+msgid "<p>Cannot reach license server. Please retry later or contact the administrator.</p>"
+msgstr "<p>Ne peut pas se connecter au serveur de licences. Veuillez réessayer plus tard ou contactez l’administrateur.</p>"
+
+#: assets/lws-adminpanel/credits/query.php:306
+msgid "<p>Internal error, please retry later.</p>"
+msgstr "<p>Une erreur est survenue, veuillez essayer à nouveau plus tard.</p>"
+
+#: assets/lws-adminpanel/credits/query.php:269
+msgid "<p>Data seems corrupted.</p>"
+msgstr "<p>Les données semblent endommagées.</p>"
+
+#: assets/lws-adminpanel/credits/query.php:256
+msgid ""
+"<p>The plugin <strong>%s</strong> from <a href='%s'>%s</a> needs activation</p>\n"
+"\t\t\t\t<p>Contact your administrator.</p>"
+msgstr ""
+"<p>L’extension <strong>%s</strong> de <a href='%s'>%s</a> a besoin d’être activée</p>\n"
+"\t\t\t\t<p>Contactez votre administrateur.</p>"
+
+#: assets/lws-adminpanel/credits/query.php:249
+msgid "<p>The plugin <strong>%s</strong> needs activation %s</p>"
+msgstr "<p>L’extension <strong>%s</strong> a besoin d’être activée %s</p>"
+
+#: assets/lws-adminpanel/credits/query.php:245
+msgctxt "plugin activation link"
+msgid "Activate"
+msgstr "Activer"
+
+#: assets/lws-adminpanel/credits/query.php:215
+msgid "or using your connection settings to <a href='%2$s'>%1$s</a>"
+msgstr "ou en utilisant vos réglages de connexion <a href='%2$s'>%1$s</a>"
+
+#: assets/lws-adminpanel/credits/query.php:212
+msgid "<p>An error occured during <strong>%s</strong> activation.</p>"
+msgstr "<p>Une erreur s’est produite lors de l’activation de <strong>%s</strong> .</p>"
+
+#: assets/lws-adminpanel/credits/query.php:207
+msgctxt "%4$s is license key form."
+msgid ""
+"<p>Activate this plugin to enjoy all available features of <strong>%1$s</strong><br/>\n"
+"If you do not have any license, please visit <a href='%3$s'>%2$s</a></p>\n"
+"<p>%4$s</p>"
+msgstr ""
+"<p>Activez l’extension <strong>%1$s</strong> pour profiter de toutes ses fonctionnalités.<br/>\n"
+"Si vous n’avez pas de licence, veuillez consulter <a href='%3$s'>%2$s</a></p>\n"
+"<p>%4$s</p>"
+
+#: assets/lws-adminpanel/credits/query.php:189
+msgctxt "plugin activation form"
+msgid "Password"
+msgstr "Mot de passe"
+
+#: assets/lws-adminpanel/credits/query.php:188
+msgctxt "plugin activation form"
+msgid "Login"
+msgstr "Identifiant"
+
+#: assets/lws-adminpanel/credits/query.php:187
+msgctxt "plugin activation form"
+msgid "License key"
+msgstr "Clé de licence"
+
+#: assets/lws-adminpanel/credits/query.php:186
+msgctxt "plugin activation form button"
+msgid "Activate"
+msgstr "Activer"
+
+#: assets/lws-adminpanel/credits/query.php:112
+#: assets/lws-adminpanel/credits/query.php:147
+msgid "%s - Activate your product"
+msgstr "%s - activer votre produit"

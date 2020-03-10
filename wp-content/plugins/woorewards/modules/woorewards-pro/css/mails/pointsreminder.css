@@ -1,0 +1,24 @@
+.lwss_selectable.lws-main-conteneur.pointsreminder{width:600px;background-color:#fff;border-color:#eee; border-style: solid;
+    border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;
+    margin-top:10px;margin-right:0px;margin-bottom:10px;margin-left:0px;
+    border-collapse:collapse;
+}
+
+.lwss_selectable.lws-top-cell.lwss_modify.pointsreminder{
+    padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px;
+    background-color:#3fa9f5;color:#ffffff;
+    font-size:25px;text-align:center;font-family: Arial, Helvetica, sans-serif;font-weight: 300;
+}
+.lwss_selectable.lws-middle-cell.lwss_modify.pointsreminder{
+    text-align:justify;color:#666;
+    padding-top:20px;padding-right:20px;padding-bottom:5px;padding-left:20px;
+}
+.lwss_selectable.lws-pointsreminder-link{text-align:center; padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px}
+.lwss_selectable.lws-pointsreminder-backlink.lwss_modify{}
+
+.lwss_selectable.lws-bottom-cell.pointsreminder{
+    margin-top:20px;
+    padding-top:5px;padding-right:20px;padding-bottom:5px;padding-left:20px;
+    background-color:#eee;color:#666;
+    font-size:12px;text-align:center;font-family: Arial, Helvetica, sans-serif;font-weight: 300;
+}

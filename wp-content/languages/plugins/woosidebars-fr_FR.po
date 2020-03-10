@@ -1,0 +1,389 @@
+# Translation of Plugins - WooSidebars - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - WooSidebars - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-06-18 12:20:54+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - WooSidebars - Stable (latest release)\n"
+
+#. Description of the plugin/theme
+msgid "Replace widget areas in your theme for specific pages, archives and other sections of WordPress."
+msgstr "Remplace les zones de widgets dans votre thème pour des pages spécifiques, archives ou autres sections de WordPress."
+
+#. Plugin Name of the plugin/theme
+msgid "WooSidebars"
+msgstr "WooSidebars"
+
+#: integrations/integration-woocommerce.php:125
+msgid "Products tagged \"%s\""
+msgstr "Produits étiquetés « %s »"
+
+#: integrations/integration-woocommerce.php:124
+msgid "Products in the \"%s\" category"
+msgstr "Produits dans la catégorie « %s »"
+
+#: integrations/integration-woocommerce.php:119
+msgid "The WooCommerce \"Account\" pages"
+msgstr "Les pages « Mon compte » WooCommerce"
+
+#: integrations/integration-woocommerce.php:118
+msgid "Account Pages"
+msgstr "Pages Mon Compte"
+
+#: integrations/integration-woocommerce.php:114
+msgid "The WooCommerce \"Checkout\" page"
+msgstr "La page « Commande » WooCommerce"
+
+#: integrations/integration-woocommerce.php:113
+msgid "Checkout Page"
+msgstr "Page de commande"
+
+#: integrations/integration-woocommerce.php:109
+msgid "The WooCommerce \"Cart\" page"
+msgstr "La page « Panier » WooCommerce"
+
+#: integrations/integration-woocommerce.php:108
+msgid "Cart Page"
+msgstr "Page panier"
+
+#: integrations/integration-woocommerce.php:104
+msgid "All products"
+msgstr "Tous les produits"
+
+#: integrations/integration-woocommerce.php:103
+msgid "Products"
+msgstr "Produits"
+
+#: integrations/integration-woocommerce.php:99
+msgid "All product tags"
+msgstr "Toutes les étiquettes produits"
+
+#: integrations/integration-woocommerce.php:98
+msgid "Product Tags"
+msgstr "Étiquettes produit"
+
+#: integrations/integration-woocommerce.php:94
+msgid "All product categories"
+msgstr "Toutes les catégories de produits"
+
+#: integrations/integration-woocommerce.php:93
+msgid "Product Categories"
+msgstr "Catégories du produit"
+
+#: integrations/integration-woocommerce.php:89
+msgid "The WooCommerce \"Shop\" landing page"
+msgstr "La page d’accueil « Boutique » WooCommerce"
+
+#: integrations/integration-woocommerce.php:88
+msgid "Shop Page"
+msgstr "Page boutique"
+
+#. #-#-#-#-#  woosidebars-code.pot (WooSidebars 1.4.4)  #-#-#-#-#
+#. Author of the plugin/theme
+#: integrations/integration-woocommerce.php:73
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: classes/class-woo-sidebars.php:781
+msgid "WooSidebars Documentation"
+msgstr "Documentation de WooSidebars"
+
+#: classes/class-woo-sidebars.php:780
+msgid "Support HelpDesk"
+msgstr "Centre de support"
+
+#: classes/class-woo-sidebars.php:779
+msgid "For more information:"
+msgstr "Pour plus d'informations :"
+
+#: classes/class-woo-sidebars.php:774
+msgid "Once you are certain that you widgets have been moved across for all widget areas, remove the sidebar from the Sidebar Manager (don't forget to transfer any dependencies over as well, if necessary)."
+msgstr "Lorsque vos widgets ont bien été placés pour toutes les zones de widgets, supprimez la colonne latérale de puis le gestionnaire de colonnes latérales ( N’oubliez pas de transférer également d’éventuelles dépendances, si besoin )."
+
+#: classes/class-woo-sidebars.php:773
+msgid "Repeat this process for each of your custom sidebars, including dependencies if necessary (the WooSidebars conditions system replaces the need for dependencies)."
+msgstr "Répétez ce processus pour chaque colonne latérale personnalisée, y compris les dépendances nécessaires ( le système de conditions WooSidebars conserve la nécessité de dépendances )."
+
+#: classes/class-woo-sidebars.php:772
+msgid "Visit the %sAppearance &rarr; Widgets%s screen and drag the widgets from the old sidebar into the newly created sidebar."
+msgstr "Visitez l’écran %sApparence &rarr; Widgets%s et glissez les widgets depuis l’ancienne colonne latérale vers la colonne latérale nouvellement créée."
+
+#: classes/class-woo-sidebars.php:771
+msgid "Create a new custom widget area in WooSidebars."
+msgstr "Créer une nouvelle zone de widgets personnalisée dans WooSidebars."
+
+#: classes/class-woo-sidebars.php:769
+msgid "To transfer a sidebar from the Sidebar Manager:"
+msgstr "Pour transférer une colonne latérale depuis le gestionnaire de colonnes latérales :"
+
+#: classes/class-woo-sidebars.php:768
+msgid "WooSidebars is intended to replace the Sidebar Manager found in the WooFramework. Please ensure that all sidebars have been transferred over from the Sidebar Manager, if you choose to use WooSidebars instead."
+msgstr "WooSidebars est conçu pour remplacer le gestionnaire de colonnes latérales dans le WooFramework. Veuillez vous assurez que toutes les colonnes latérales ont été transférées depuis le gestionnaire de colonnes latérales, si vous choisissez d’utiliser WooSidebars à la place."
+
+#: classes/class-woo-sidebars.php:766
+msgid "Sidebar Manager"
+msgstr "Gestionnaire de barres latérales"
+
+#: classes/class-woo-sidebars.php:762
+msgid "All custom widget areas are listed on this screen. To add a new customised widget area, click the \"Add New\" button."
+msgstr "Toutes les zones de widgets personnalisées sont listées sur cet écran. Pour ajouter une zone de widget personnalisée, cliquez sur le bouton « Ajouter »."
+
+#: classes/class-woo-sidebars.php:760
+msgid "Overview"
+msgstr "Vue d'ensemble"
+
+#: classes/class-woo-sidebars.php:701
+msgid "You have taken too long. Please go back and retry."
+msgstr "Le délais est dépassé. Veuillez retourner en arrière et réessayer."
+
+#: classes/class-woo-sidebars.php:700
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Vous n'avez pas les droits suffisants pour accéder à cette page."
+
+#: classes/class-woo-sidebars.php:654
+msgid "Custom Sidebars"
+msgstr "Colonnes latérales personnalisées"
+
+#: classes/class-woo-sidebars.php:410
+msgid "Widget Area updated."
+msgstr "Zone de widgets mise à jour."
+
+#: classes/class-woo-sidebars.php:393
+msgid "Enter widget area name here"
+msgstr "Entrez le nom de la zone de widgets ici"
+
+#: classes/class-woo-sidebars.php:380
+msgid "Add an optional description, to be displayed when adding widgets to this widget area on the %sWidgets%s screen."
+msgstr "Ajoutez un description facultative, qui sera affichée lors de l’ajout de widgets à cette zone de widgets depuis l’écran %sWidgets%s."
+
+#: classes/class-woo-sidebars.php:324
+msgid "No sidebars are available with this theme."
+msgstr "Aucune barre latérale n&rsquo;est disponible dans ce thème."
+
+#: classes/class-woo-sidebars.php:297 classes/class-woo-sidebars.php:379
+msgid "Description"
+msgstr "Description"
+
+#: classes/class-woo-sidebars.php:260
+msgid "Condition(s)"
+msgstr "Condition(s)"
+
+#: classes/class-woo-sidebars.php:260 classes/class-woo-sidebars.php:290
+msgid "Sidebar To Replace"
+msgstr "Barre latérale à remplacer"
+
+#: classes/class-woo-sidebars.php:225
+msgid "(Not in use by current theme)"
+msgstr "(non utilisé par le thème actuel)"
+
+#: classes/class-woo-sidebars.php:174
+msgid "No %s Found In Trash"
+msgstr "Aucun %s trouvé dans la corbeille"
+
+#: classes/class-woo-sidebars.php:173
+msgid "No %s Found"
+msgstr "Aucun %s trouvé"
+
+#: classes/class-woo-sidebars.php:172
+msgid "Search %a"
+msgstr "Rechercher %a"
+
+#: classes/class-woo-sidebars.php:171
+msgid "View %s"
+msgstr "Afficher l&rsquo;%s"
+
+#: classes/class-woo-sidebars.php:169
+msgid "New %s"
+msgstr "Nouvelle %s"
+
+#: classes/class-woo-sidebars.php:168
+msgid "Edit %s"
+msgstr "Éditer la %s"
+
+#: classes/class-woo-sidebars.php:167
+msgid "Add New %s"
+msgstr "Ajouter une nouvelle %s"
+
+#: classes/class-woo-sidebars.php:166
+msgctxt "Widget Area"
+msgid "Add New"
+msgstr "Ajouter"
+
+#: classes/class-woo-sidebars.php:165
+msgctxt "post type singular name"
+msgid "Widget Area"
+msgstr "Zone de widgets"
+
+#: classes/class-woo-sidebars.php:164
+msgctxt "post type general name"
+msgid "Widget Areas"
+msgstr "Zones de widgets"
+
+#: classes/class-woo-sidebars.php:157 classes/class-woo-sidebars.php:170
+msgid "Widget Areas"
+msgstr "Zone de widgets"
+
+#: classes/class-woo-sidebars.php:156
+msgid "Widget Area"
+msgstr "Zone de widgets"
+
+#: classes/class-woo-conditions.php:701
+msgid "Taxonomy Token"
+msgstr "Token de taxonomie"
+
+#: classes/class-woo-conditions.php:635
+msgid "Advanced"
+msgstr "Avancé"
+
+#: classes/class-woo-conditions.php:626
+msgid "Taxonomy Terms"
+msgstr "Termes de taxinomie"
+
+#: classes/class-woo-conditions.php:352
+msgid "Displayed on all 404 error screens."
+msgstr "Affichée sur toutes les pages d’erreur 404."
+
+#: classes/class-woo-conditions.php:351
+msgid "404 Error Screens"
+msgstr "Pages d’erreur 404"
+
+#: classes/class-woo-conditions.php:347
+msgid "Displayed on all date archives."
+msgstr "Affichée sur toutes les archives de date."
+
+#: classes/class-woo-conditions.php:346
+msgid "Date Archives"
+msgstr "Archives de date"
+
+#: classes/class-woo-conditions.php:342
+msgid "Displayed on all author archive screens (that don't have a more specific sidebar)."
+msgstr "Affichée sur toutes les pages d’archives d’auteur⋅e ( qui n’ont pas une colonne latérale plus spécifique )."
+
+#: classes/class-woo-conditions.php:341
+msgid "Author Archives"
+msgstr "Archives d’auteur⋅e"
+
+#: classes/class-woo-conditions.php:337
+msgid "Displayed on all archives (category, tag, taxonomy, post type, dated, author and search)."
+msgstr "Affichée sur toutes les pages d’archives ( catégorie, étiquette, taxonomie, type de contenu, date, auteur et recherche )."
+
+#: classes/class-woo-conditions.php:336
+msgid "All Archives"
+msgstr "Toutes les archives"
+
+#: classes/class-woo-conditions.php:332
+msgid "Displayed on single entries of any public post type other than \"Pages\"."
+msgstr "Affichée sur toute entrée de n’importe quel type de contenu public autre que « pages »."
+
+#: classes/class-woo-conditions.php:331
+msgid "Single Entries"
+msgstr "Publications"
+
+#: classes/class-woo-conditions.php:327
+msgid "Displayed on any front page, regardless of the settings under the \"Settings -> Reading\" admin screen."
+msgstr "Affichée sur toute page publique, indépendamment des réglages saisis sur l’écran d’administration « Réglages &rarr; Lecture »."
+
+#: classes/class-woo-conditions.php:326
+msgid "Front Page"
+msgstr "Page d’accueil"
+
+#: classes/class-woo-conditions.php:322
+msgid "Displayed on the default \"Your Latest Posts\" screen."
+msgstr "Affichée sur l’écran par défaut « Vos derniers articles »."
+
+#: classes/class-woo-conditions.php:321
+msgid "Default \"Your Latest Posts\" Screen"
+msgstr "Écran par défaut « Vos derniers articles »"
+
+#: classes/class-woo-conditions.php:317
+msgid "Displayed on search results screens."
+msgstr "Affichée sur les écrans de résultats de recherche."
+
+#: classes/class-woo-conditions.php:316
+msgid "Search Results"
+msgstr "Résultats de la recherche"
+
+#: classes/class-woo-conditions.php:312
+msgid "Displayed on all pages that don't have a more specific widget area."
+msgstr "Affichée sur toutes les pages qui n’ont pas de zone de widgets plus spécifique."
+
+#: classes/class-woo-conditions.php:307
+msgid "Template Hierarchy"
+msgstr "Modèles de navigation"
+
+#: classes/class-woo-conditions.php:298
+msgid "All posts tagged %s"
+msgstr "Tous les articles étiquetés %s"
+
+#: classes/class-woo-conditions.php:298
+msgid "All posts tagged \"%s\""
+msgstr "Tous les articles étiquetés « %s »"
+
+#: classes/class-woo-conditions.php:295
+msgid "All posts in the %s %s archive"
+msgstr "Tous les articles dans l’archive %s %s"
+
+#: classes/class-woo-conditions.php:295
+msgid "All posts in \"%s\""
+msgstr "Tous les articles dans \"%s\""
+
+#: classes/class-woo-conditions.php:293
+msgid "The %s %s archive"
+msgstr "L’archive %s %s"
+
+#: classes/class-woo-conditions.php:284
+msgid "The default \"%s\" archives"
+msgstr "Les archives par défaut « %s »"
+
+#: classes/class-woo-conditions.php:276
+msgid "Taxonomy Archives"
+msgstr "Archives des taxonomies"
+
+#: classes/class-woo-conditions.php:259
+msgid "Entries in the \"%s\" post type"
+msgstr "Publications du type de contenu « %s »"
+
+#: classes/class-woo-conditions.php:258
+msgid "Each Individual %s"
+msgstr "Tout %s individuel"
+
+#: classes/class-woo-conditions.php:250
+msgid "The \"%s\" post type archive"
+msgstr "L’archive de type de contenu « %s »"
+
+#: classes/class-woo-conditions.php:249
+msgid "\"%s\" Post Type Archive"
+msgstr "Archive de type de contenu « %s »"
+
+#: classes/class-woo-conditions.php:242
+msgid "Post Types"
+msgstr "Types de contenu"
+
+#: classes/class-woo-conditions.php:232
+msgid "The \"%s\" page template"
+msgstr "Le modèle de page « %s »"
+
+#: classes/class-woo-conditions.php:226
+msgid "Page Templates"
+msgstr "Modèles de page"
+
+#: classes/class-woo-conditions.php:213
+msgid "A custom sidebar for \"%s\""
+msgstr "Une colonne latérale personnalisée pour « %s »"
+
+#: classes/class-woo-conditions.php:142
+msgid "The \"%s\" page"
+msgstr "La page \"%s\""
+
+#: classes/class-woo-conditions.php:128 classes/class-woo-conditions.php:311
+msgid "Pages"
+msgstr "Pages"
+
+#: classes/class-woo-conditions.php:57
+msgid "Conditions"
+msgstr "Conditions"

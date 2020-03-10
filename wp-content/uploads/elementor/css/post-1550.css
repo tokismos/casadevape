@@ -1,0 +1,7 @@
+.elementor-1550 .elementor-element.elementor-element-3568051:not(.elementor-motion-effects-element-type-background), .elementor-1550 .elementor-element.elementor-element-3568051 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#851722;}.elementor-1550 .elementor-element.elementor-element-3568051{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;padding:23px 23px 23px 23px;}.elementor-1550 .elementor-element.elementor-element-3568051 > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-1550 .elementor-element.elementor-element-390ca19{text-align:center;}.elementor-1550 .elementor-element.elementor-element-390ca19.elementor-widget-heading .elementor-heading-title{color:#ffffff;}.elementor-1550 .elementor-element.elementor-element-390ca19 .elementor-heading-title{font-family:"century", Sans-serif;text-transform:uppercase;letter-spacing:1.6px;}/* Start Custom Fonts CSS */@font-face {
+	font-family: 'century';
+	font-style: normal;
+	font-weight: normal;
+	src: url('http://localhost/vape/wp-content/uploads/2019/11/07558_CenturyGothic.ttf') format('truetype');
+}
+/* End Custom Fonts CSS */

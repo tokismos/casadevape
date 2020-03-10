@@ -1,0 +1,79 @@
+#lws-wr-new-pool-button{
+    box-sizing: border-box;
+    background-color:#3f89c5;
+    color:#fff;padding:0 10px;
+    margin:0px -10px;
+}
+#lws-wr-new-pool-button:hover{
+    background-color:#3fa9f5;
+}
+.lws-top-menu li.lws-mtab-li-2{
+    margin:0;
+}
+.lws-adminpanel p.mid-submit{
+	border: none;
+	border-radius: 0;
+	background: #eee;
+	padding: 1em !important;
+	z-index: 99999;
+}
+.lws-adminpanel p.mid-submit input#submit{
+	width:100%
+}
+.lws_tooltips_button.lws-wr-productreview-help:before{
+	display: block;
+	text-align: right;
+	top: -1.5em;
+	height: 0;
+}
+
+.lws-woorewards-list-pool-status{
+	width:100%;border-radius:4px;font-size:14px;text-transform: uppercase;
+	font-weight:normal;padding:4px 6px;text-align:center;box-sizing: border-box;
+}
+.lws-woorewards-list-pool-status.enabled{
+	background-color:rgb(9, 160, 9);
+	color:white;
+}
+.lws-woorewards-list-pool-status.disabled{
+	background-color:#aa1d25;
+	color:#fff;
+}
+.lws-woorewards-list-pool-status.futur{
+	background-color:rgb(103, 124, 115);
+	color:#fff;
+}
+.lws-woorewards-list-pool-status.running{
+	background-color:#3fa9f5;
+	color:white;
+}
+.lws-woorewards-list-pool-status.buyable{
+	background-color:rgb(0, 80, 90);
+	color:#fff;;
+}
+.lws-woorewards-list-pool-status.outdated{
+	background-color:#999;
+	color:#ccc;
+}
+.lws-wre-pool-edit-link.row{
+	font-weight:700;
+}
+.lws-woorewards-list-pool-date{
+	white-space: nowrap;font-size:12px;
+}
+.lws-editlist-line-inputs label{
+	position: relative;
+}
+.lws_wre_points_sharing.slave.fuzzy{
+	display:none;
+}
+.lws_wre_pool_edit_lifestyle{font-size:15px;}
+
+.lws-backbutton{
+	height:30px;width:200px;background-color:#666;
+	border-radius:4px 4px 0 0;padding:5px;box-sizing: border-box;
+}
+.lws-backbutton a.lws-backbutton-link{display:flex;flex-direction: row;color:#fff;text-decoration: none;font-size:16px;}
+.lws-backbutton-icon{padding:0 5px;}
+.lws-backbutton-text{padding:0 5px;line-height: 20px;}
+.lws-backbutton:hover{background-color:#333;}

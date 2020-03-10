@@ -1,0 +1,14 @@
+/** override some editlist style */
+.lws_woorewards_system_master .lws_woorewards_system_choice{display:none;}
+.lws-woorewards-system-edit{display:flex;flex:1 1 auto;}
+.lws-woorewards-system-edit .lws-wr-choice-content{display:flex; flex:1 1 auto;flex-direction: row;flex-wrap: wrap}
+.lws-editlist-cell .lws-wr-unlockable-thumbnail{display:inline-block;margin-right:5px;}
+.lws-editlist-cell .lws-wr-unlockable-title{display:inline-block;}
+.lws-master-editlist.sponsoredreward tfoot{display:none;}
+.lws-master-editlist.sponsoredreward .lws-wr-unlockable-cost{text-align:right;font-weight:600;word-wrap:normal;display:inline-block;width:100%;}
+fieldset.lws-editlist-fieldset table.lws-editlist-fs-table td.rcell-choice-title .lws-wr-choice-title{line-height:28px;}
+.lws-master-editlist.sponsoredreward{margin-bottom:40px;}
+/** no date, no cost */
+.lws-master-editlist.sponsoredreward .lws_woorewards_system_choice .lws_wr_unlockable_cost_field{display:none !important;}
+.lws-master-editlist.sponsoredreward .lws_woorewards_system_choice .lws_wr_unlockable_period_fields{display:none !important;}
+.lws-master-editlist.sponsoredreward .lws_woorewards_system_choice .lws_wr_unlockable_period_field{display:none !important;}

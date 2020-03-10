@@ -1,0 +1,45 @@
+.lwss_selectable.lws-wre-cartcouponsview-main{
+	padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;
+}
+.lwss_selectable.lwss_modify.lws-wre-cartcouponsview-label{
+    color:#666666;
+	padding-top:0px;padding-right:5px;padding-bottom:0px;padding-left:0px;
+    border-top-width:0px;border-right-width:0px;border-bottom-width:0px;border-left-width:0px;
+	font-size: 15px;
+	line-height:30px;
+	flex:0 1 auto;
+}
+.lwss_selectable.lws_wr_cart_coupon_row{
+	margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;
+}
+.lwss_selectable.lws-wr-cart-coupon-code{
+    color:#333333;
+	padding-top:0px;padding-right:5px;padding-bottom:0px;padding-left:0px;
+	font-size: 16px;
+    line-height:30px;
+    font-weight: bold;
+}
+.lwss_selectable.lws-wr-cart-coupon-description{
+    color:#000000;
+    padding-top:0px;padding-right:5px;padding-bottom:0px;padding-left:0px;
+    font-weight: normal;
+}
+.lwss_selectable.lws-wr-cart-coupon-button{
+    text-align:right;
+}
+.lwss_selectable.lwss_modify.lws-cart-button.lws_woorewards_add_coupon{
+	text-align:center;overflow:visible;
+	display:inline-block;
+    color:#ffffff;
+    background-color:#3f99d5; white-space: nowrap;
+    border-top-left-radius: 3px;border-top-right-radius: 3px;border-bottom-right-radius: 3px;border-bottom-left-radius: 3px;
+	padding-top:5px;padding-right:10px;padding-bottom:5px;padding-left:10px;
+}
+.lwss_selectable.lwss_modify.lws-cart-button.lws_woorewards_add_coupon:hover{
+    background-color:#3fa9f5;
+    color:#ffffff;
+    border:none;
+}
+.lws-cart-button.lws_woorewards_add_coupon:hover{
+	cursor: pointer;
+}

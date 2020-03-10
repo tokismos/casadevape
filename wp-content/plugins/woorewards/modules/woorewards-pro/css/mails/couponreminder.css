@@ -1,0 +1,52 @@
+.lwss_selectable.lws-main-conteneur.couponreminder{width:600px;background-color:#fff;border-color:#eee; border-style: solid;
+    border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;
+    margin-top:10px;margin-right:0px;margin-bottom:10px;margin-left:0px;
+    border-collapse:collapse;
+}
+
+.lwss_selectable.lws-top-cell.lwss_modify.couponreminder{
+    padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px;
+    background-color:#3fa9f5;color:#ffffff;
+    font-size:25px;text-align:center;font-family: Arial, Helvetica, sans-serif;font-weight: 300;
+}
+.lwss_selectable.lws-middle-cell.lwss_modify.couponreminder{
+    text-align:justify;color:#666;
+    padding-top:20px;padding-right:20px;padding-bottom:5px;padding-left:20px;
+}
+.lwss_selectable.lws-reminder-table{
+    margin-top:10px;margin-right:0px;margin-bottom:10px;margin-left:0px;
+    padding-top:5px;padding-right:5px;padding-bottom:5px;padding-left:5px;
+    background:#eee;
+    box-sizing: border-box;
+    width:100%;font-family: Arial, Helvetica, sans-serif;
+}
+.lwss_selectable.lws-reminder-cell{
+    padding-top:5px;padding-right:5px;padding-bottom:5px;padding-left:5px;
+    text-align: justify;width:100%;
+}
+
+.lwss_selectable.lws-reminder-horizontal-sep{
+    width:80%;display:block;margin:0 auto;
+    height:1px; background-color: #999;
+}
+.lwss_selectable.lws-reminder-code{
+    font-size:15px;font-family: Arial, Helvetica, sans-serif;font-weight: bold; color:#777;
+}
+.lwss_selectable.lws-reminder-title{
+    font-size:15px;font-family: Arial, Helvetica, sans-serif;font-weight: bold; color:#333333;
+}
+.lwss_selectable.lws-reminder-desc{
+    font-size:15px;font-family: Arial, Helvetica, sans-serif;font-weight: normal;
+    margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;
+    padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;
+}
+.lwss_selectable.lws-reminder-expiry{
+    font-size:15px;font-family: Arial, Helvetica, sans-serif;font-weight: normal; color:#777777;
+}
+
+.lwss_selectable.lws-bottom-cell.couponreminder{
+    margin-top:20px;
+    padding-top:5px;padding-right:20px;padding-bottom:5px;padding-left:20px;
+    background-color:#eee;color:#666;
+    font-size:12px;text-align:center;font-family: Arial, Helvetica, sans-serif;font-weight: 300;
+}

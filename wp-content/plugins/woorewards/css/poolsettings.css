@@ -1,0 +1,14 @@
+.lws_woorewards_system_master .lws_woorewards_system_choice{display:none;}
+.lws-woorewards-system-edit{display:flex;flex:1 1 auto;}
+.lws-woorewards-system-edit .lws-wr-choice-content{display:flex; flex:1 1 auto;flex-direction: row;flex-wrap: wrap}
+.lws-editlist-cell .lws-wr-unlockable-thumbnail{display:inline-block;margin-right:5px;}
+.lws-editlist-cell .lws-wr-unlockable-title{display:inline-block;}
+.lws-master-editlist.eventlist tfoot{display:none;}
+.lws-master-editlist.eventlist .lws-wr-event-multiplier{text-align:right;font-weight:600;word-wrap:normal;display:inline-block;width:100%;}
+.lws-master-editlist.unlockablelist tfoot{display:none;}
+.lws-master-editlist.unlockablelist .lws-wr-unlockable-cost{text-align:right;font-weight:600;word-wrap:normal;display:inline-block;width:100%;}
+fieldset.lws-editlist-fieldset table.lws-editlist-fs-table td.rcell-choice-title .lws-wr-choice-title{line-height:28px;}
+.lws-master-editlist.unlockablelist{margin-bottom:40px;}
+#lws_group_targetable_lws_wr_spending_system{
+	margin-bottom:100px; /* ensure space under the editlist to smoothly prevent to of edit form at bottom of page. */
+}

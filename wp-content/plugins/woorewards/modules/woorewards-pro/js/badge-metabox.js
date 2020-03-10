@@ -1,0 +1,1 @@
+jQuery(function(a){a("#achievement-preview").click(function(b){a("<div>").lws_badge({imageUrl:a("#set-post-thumbnail").find("img").attr("src"),bgUrl:a(this).data("achievement-bg"),title:a("#title").val(),text:a("#excerpt").val()})})});

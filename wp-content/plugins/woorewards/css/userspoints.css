@@ -1,0 +1,51 @@
+/* Customers Points and Rewards backend page */
+.lws_wre_point_history{cursor:pointer;display: inline-block;min-width:3em;text-align: right;
+    white-space: pre;padding: 4px 8px;}
+.lws_wre_rewards_link{cursor:pointer;display: block;white-space: pre;padding: 4px 8px;
+    color: #333;border: 1px solid #ccc;border-radius: 4px;background: #f7f7f7;text-align:center;
+}
+.lws_wre_rewards_no_link{cursor:not-allowed;display: block;white-space: pre;padding: 4px 8px;
+    color: #777;border: 1px solid #ccc;border-radius: 4px;background: #ddd;text-align:center;
+}
+.lws-history-shadow{
+	z-index: 10000;position:absolute;top:0px;left:0px;right:0px;bottom:0px;
+	background-color:rgb(100, 100, 100,0.5);
+}
+.lws-history-wrapper{
+	width:600px;max-height:500px;background-color:#fff;
+	position:absolute;display:flex;flex-direction:column;
+}
+.lws-history-top-line{
+	flex:0 0 30px;display: flex;flex-direction: row;
+}
+.lws-history-title{
+	font-family: 'Gravity';padding:0 5px;line-height: 30px;font-weight: 300;text-transform: uppercase;
+	background-color:#eee;font-size:12px;flex: 0 1 auto;
+}
+.lws-history-user{
+	font-family: 'Gravity';padding:0 5px;font-weight: normal;background-color:#ddd;
+	line-height: 30px;flex: 1 1 auto;text-align:center;
+}
+.lws-history-close{
+	flex:0 0 30px;line-height: 30px;text-align: center;color:#fff;background-color:#3fa9f5;
+    cursor:pointer;
+}
+.lws-history-content{
+    overflow-y: scroll;margin:5px;padding-right:5px;
+}
+.lws-history-content-table{
+	width:100%;
+}
+.lws-history-content-table th{
+	text-align: left;font-family: 'Gravity';text-transform: uppercase;color:#666;
+	font-size:15px;font-weight: 300;border-bottom: 1px solid #ccc;
+}
+.lws-history-content-table td{
+	text-align: left;font-family: 'Gravity';color:#333;font-size:12px;
+}
+.lws-history-content-table td.number{
+	text-align: right;font-weight: bold;width:40px;
+}
+.lws-history-content-table td.date{
+	width:120px;
+}

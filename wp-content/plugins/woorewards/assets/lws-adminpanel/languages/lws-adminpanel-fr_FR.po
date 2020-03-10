@@ -1,0 +1,954 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: LWS Administration Pages\n"
+"POT-Creation-Date: 2019-06-14 08:31+0200\n"
+"PO-Revision-Date: 2019-06-14 08:32+0200\n"
+"Last-Translator: Long Watch Studio <contact@longwatchstudio.com>\n"
+"Language-Team: Long Watch Studio <contact@longwatchstudio.com>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: lws-adminpanel.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: argparser.php:162
+#, php-format
+msgctxt "Input array validation"
+msgid "%s value rejected"
+msgstr "%s valeur rejetée"
+
+#: argparser.php:173
+#, php-format
+msgctxt "Input array validation"
+msgid "%s is not an array"
+msgstr "%s n’est pas un tableau"
+
+#: argparser.php:177
+#, php-format
+msgid "A value in %s"
+msgstr "Une valeur en %s"
+
+#: argparser.php:196
+#, php-format
+msgctxt "Input array validation"
+msgid "%s is not valid"
+msgstr "%s n’est pas valide"
+
+#: argparser.php:201
+#, php-format
+msgctxt "Input array validation"
+msgid "%s must be equal or greater than zero"
+msgstr "%s doit être égal ou supérieur à 0"
+
+#: argparser.php:207
+#, php-format
+msgctxt "Input array validation"
+msgid "%s is not a decimal number"
+msgstr "%s n’est pas un nombre décimal"
+
+#: argparser.php:209 argparser.php:219
+#, php-format
+msgctxt "Input array validation"
+msgid "%s must be greater than zero"
+msgstr "%s doit être plus grand que zéro"
+
+#: argparser.php:217
+#, php-format
+msgctxt "Input array validation"
+msgid "%s is not a number"
+msgstr "%s n'est pas un nombre"
+
+#: argparser.php:223
+#, php-format
+msgctxt "Input array validation"
+msgid "%s is not a string"
+msgstr "%s n'est pas une chaîne de caractère"
+
+#: argparser.php:235
+#, php-format
+msgctxt "Input array validation"
+msgid "%s is empty"
+msgstr "%s est vide"
+
+#: argparser.php:285
+#, php-format
+msgctxt "Input array validation"
+msgid "Missing required value for %s"
+msgstr "Valeur requise manquante pour %s"
+
+#: argparser.php:295
+#, php-format
+msgctxt "Input array validation"
+msgid "Missing entry %s"
+msgstr "Entrée manquante %s"
+
+#: argparser.php:301
+#, php-format
+msgctxt "Input array validation"
+msgid "Missing value for %s"
+msgstr "Valeur manquante pour %s"
+
+#: argparser.php:368
+#, php-format
+msgctxt "Input array validation"
+msgid "Unknown entry %s"
+msgstr "Entrée inattendue %s"
+
+#: credits/query.php:78 credits/query.php:131
+msgid "You actually use a <b>hacked</b> version."
+msgstr "Vous utilisez actuellement une version <b>crackée</b>."
+
+#: credits/query.php:78
+#, php-format
+msgid "This activation actually use the license key <b>%s</b>"
+msgstr "Cette extension utilise actuellement la clé de licence <b>%s</b>"
+
+#: credits/query.php:81 credits/query.php:136
+#, php-format
+msgid "%s - Activated"
+msgstr "%s - Activé"
+
+#: credits/query.php:83 credits/query.php:138
+#, php-format
+msgid "Visit <a href='%s'>%s</a> to discover other offers."
+msgstr "Visitez <a href='%s'>%s</a> pour découvrir d’autres offres."
+
+#: credits/query.php:100
+#, php-format
+msgid "Your license expires the %s."
+msgstr "Votre licence expire le %s."
+
+#: credits/query.php:112
+msgid "Set another license key"
+msgstr "Renseignez une autre clé de licence"
+
+#: credits/query.php:112 credits/query.php:147
+#, php-format
+msgid "%s - Activate your product"
+msgstr "%s - activer votre produit"
+
+#: credits/query.php:149
+#, php-format
+msgid ""
+"<p>The plugin <strong>%s</strong> from <a href='%s'>%s</a> needs activation</"
+"p><p>Contact your administrator.</p>"
+msgstr ""
+"<p>L’extension <strong>%s</strong> de <a href='%s'>%s</a> nécessite une "
+"activation</p><p>Contactez votre administrateur.</p>"
+
+#: credits/query.php:161
+msgid "Pro Version"
+msgstr "Version Pro"
+
+#: credits/query.php:186
+msgctxt "plugin activation form button"
+msgid "Activate"
+msgstr "Activer"
+
+#: credits/query.php:187
+msgctxt "plugin activation form"
+msgid "License key"
+msgstr "Clé de Licence"
+
+#: credits/query.php:188
+msgctxt "plugin activation form"
+msgid "Login"
+msgstr "Identifiant"
+
+#: credits/query.php:189
+msgctxt "plugin activation form"
+msgid "Password"
+msgstr "Mot de passe"
+
+#: credits/query.php:207
+#, php-format
+msgctxt "%4$s is license key form."
+msgid ""
+"<p>Activate this plugin to enjoy all available features of <strong>%1$s</"
+"strong><br/>\n"
+"If you do not have any license, please visit <a href='%3$s'>%2$s</a></p>\n"
+"<p>%4$s</p>"
+msgstr ""
+"<p>Activez <strong>%1$s</strong> pour profiter de toutes ses fonctionnalités."
+"<br>\n"
+"Si vous n’avez pas de licence, consultez <a href='%3$s'>%2$s</a></p>\n"
+"<p>%4$s</p>"
+
+#: credits/query.php:212
+#, php-format
+msgid "<p>An error occured during <strong>%s</strong> activation.</p>"
+msgstr ""
+"<p>Une erreur s’est produite lors de l’activation de <strong>%s</strong> .</"
+"p>"
+
+#: credits/query.php:215
+#, php-format
+msgid "or using your connection settings to <a href='%2$s'>%1$s</a>"
+msgstr "ou en utilisant vos paramètres de connexion <a href='%2$s'>%1$s</a>"
+
+#: credits/query.php:235
+msgid "Install PRO version now"
+msgstr "Installez la version PRO maintenant"
+
+#: credits/query.php:245
+msgctxt "plugin activation link"
+msgid "Activate"
+msgstr "Activer"
+
+#: credits/query.php:249
+#, php-format
+msgid "<p>The plugin <strong>%s</strong> needs activation %s</p>"
+msgstr "<p>Le plugin <strong>%s</strong> a besoin d'être activé %s</p>"
+
+#: credits/query.php:256
+#, php-format
+msgid ""
+"<p>The plugin <strong>%s</strong> from <a href='%s'>%s</a> needs activation</"
+"p>\n"
+"\t\t\t\t<p>Contact your administrator.</p>"
+msgstr ""
+"<p>Le plugin <strong>%s</strong> de <a href='%s'>%s</a> a besoin d’être "
+"activé</p>\n"
+"\t\t\t\t<p>Contactez votre administrateur.</p>"
+
+#: credits/query.php:269
+msgid "<p>Data seems corrupted.</p>"
+msgstr "<p>Les données semblent endommagées.</p>"
+
+#: credits/query.php:306
+msgid "<p>Internal error, please retry later.</p>"
+msgstr "Une erreur est survenue, s'il vous plaît essayez à nouveau plus tard"
+
+#: credits/query.php:311
+msgid ""
+"<p>Cannot reach license server. Please retry later or contact the "
+"administrator.</p>"
+msgstr ""
+"<p>Ne peut pas atteindre le serveur de licences. Veuillez réessayer plus "
+"tard ou contactez l’administrateur.</p>"
+
+#: credits/query.php:320
+msgid ""
+"<p class='lws-adminpanel-activation-error'>The license server cannot "
+"validate your request. Please check your values and try again.</p>"
+msgstr ""
+"<p class='lws-adminpanel-activation-erreur'>Le serveur de licences ne peut "
+"pas valider votre demande. S’il vous plaît vérifiez vos valeurs et réessayez."
+"</p>"
+
+#: credits/query.php:341
+msgid "<p>Operation abort, detect a man-in-the-middle attack.</p>"
+msgstr "<p>Opération avortée, attaque \"man-in-the-middle\" détectée.</p>"
+
+#: credits/query.php:349
+msgid "<p>Corrupted data from license server.</p>"
+msgstr "<p>Données corrompues reçues depuis le serveur de licences.</p>"
+
+#: credits/query.php:356
+#, php-format
+msgid "<p><strong>%s</strong> is now activated.</p>"
+msgstr "<p> <strong>%s</strong> est maintenant activé. </p>"
+
+#: credits/query.php:359
+msgid "Now, you can check available plugin updates."
+msgstr ""
+"Maintenant, vous pouvez vérifier s’il y a des mises à jour disponibles pour "
+"cette extension."
+
+#: credits/query.php:368
+msgid "<p>License denied.</p>"
+msgstr "<p>Licence refusée.</p>"
+
+#. Author of the plugin/theme
+#: credits/query.php:395 credits/update.php:357
+msgid "Long Watch Studio"
+msgstr "Long Watch Studio"
+
+#. Plugin URI of the plugin/theme
+#: credits/query.php:397 credits/query.php:399 credits/update.php:359
+#: credits/update.php:361
+msgid "https://plugins.longwatchstudio.com"
+msgstr "https://plugins.longwatchstudio.com"
+
+#: credits/showcase.php:61
+msgid "More..."
+msgstr "Plus…"
+
+#: credits/update.php:235
+msgid "Invalid URL Provided."
+msgstr "L'URL fournie n'est pas valide."
+
+#: credits/update.php:241
+msgid "Could not create Temporary file."
+msgstr "Impossible de créer un fichier temporaire."
+
+#: credits/update.php:287
+#, php-format
+msgid "No maintenance available for <b>%s</b>."
+msgstr "Aucune maintenance disponible pour <b>%s</b>."
+
+#: credits/update.php:292
+msgid "Update request rejected."
+msgstr "Demande de mise à jour rejetée."
+
+#: credits/update.php:294
+msgid "Download falls back to an older version."
+msgstr "Le téléchargement revient à une version plus ancienne."
+
+#: credits/update.php:300
+#, php-format
+msgid "<p>Your maintenance expired on %s.</p>"
+msgstr "<p>Votre maintenance a expiré pour %s.</p>"
+
+#: credits/update.php:304
+msgid "our site"
+msgstr "notre site"
+
+#: credits/update.php:306
+#, php-format
+msgid ""
+"<p>Please visit %s to renew your maintenance and receive the plugin updates."
+"</p>"
+msgstr ""
+"<p>S’il vous plaît visitez %s pour renouveler votre maintenance et recevoir "
+"les mises à jour de l'extension.</p>"
+
+#: editlist.php:154
+msgctxt "editlist groupby"
+msgid "Add a group"
+msgstr "Ajouter un groupe"
+
+#: editlist.php:267
+msgid "Apply"
+msgstr "Valider"
+
+#: editlist.php:302 pages/field/class-taglist.php:21
+msgid "Add"
+msgstr "Ajouter"
+
+#: editlist.php:408
+msgid "Cancel"
+msgstr "Annuler"
+
+#: editlist.php:409
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: editlist.php:426
+msgid "Delete"
+msgstr "Supprimer"
+
+#: editlist.php:427
+msgid "Copy"
+msgstr "Copier"
+
+#: editlist.php:428
+msgid "Quick Edit"
+msgstr "Édition rapide"
+
+#: editlist/class-filter.php:91
+msgid "Search"
+msgstr "Rechercher"
+
+#: editlist/class-filter.php:100
+msgid "Narrow your search"
+msgstr "Affiner votre recherche"
+
+#: editlist/class-filter.php:136
+msgid "Filter the results"
+msgstr "Filtrer les résultats"
+
+#: editlist/class-pager.php:84
+#, php-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d Élément"
+msgstr[1] "%d Éléments"
+
+#: editlist/class-pager.php:91
+msgid "Items per page"
+msgstr "Éléments par page"
+
+#: editlist/class-pager.php:111
+#, php-format
+msgctxt "Total page number"
+msgid "/ %d"
+msgid_plural "/ %d"
+msgstr[0] "/ %d"
+msgstr[1] "/ %d"
+
+#: lws-adminpanel.php:323
+msgid "At least one value is unknown."
+msgstr "Au moins une valeur est inconnue."
+
+#: lws-adminpanel.php:419
+msgid "Used to get google fonts."
+msgstr "Utilisé pour obtenir les polices google."
+
+#: lws-adminpanel.php:422
+msgid "Generate API Key"
+msgstr "Générer une clé d'API"
+
+#: lws-adminpanel.php:423
+#, php-format
+msgid "or <a target='_blank' href='%s'>click here to Get a Google API KEY</a>"
+msgstr ""
+"ou <a target='_blank' href='%s'>cliquez ici pour obtenir une clé Google API</"
+"a>"
+
+#: lws-adminpanel.php:426
+msgid "You MUST be logged in to your Google account to generate a key."
+msgstr "Vous devez être connecté à votre compte Google pour générer une clé."
+
+#: lws-adminpanel.php:430
+msgid "Google account"
+msgstr "Compte Google"
+
+#: lws-adminpanel.php:512
+#, php-format
+msgid ""
+"The trial period of plugin <b>%s</b> expired the <i>%s</i>. We hope you "
+"enjoyed it and expect you soon on <a href='%s' target='_blank'>%s</a>."
+msgstr ""
+"La période d'essai de l'extension <b>%s a</b> expiré le <i>%s</i> . Nous "
+"espérons que vous l'avez apprécié et vous attendons bientôt sur <a href='%s' "
+"target='_blank'>%s</a> ."
+
+#: mailer.php:264
+msgid "This is a test."
+msgstr "Ceci est un test."
+
+#: mailer.php:335
+msgid "Email Settings"
+msgstr "Paramètres des emails"
+
+#: mailer.php:335
+#, php-format
+msgid "%s Email Settings"
+msgstr "Paramètres des emails %s"
+
+#: mailer.php:341
+msgid ""
+"\n"
+"\t\t\t\t\t\t\tOnce you've finished the email settings, <b>save your changes</"
+"b><br/>\n"
+"\t\t\t\t\t\t\tYou will then see the result in the style editor below<br/>\n"
+"\t\t\t\t\t\t\tSelect the elements you wish to change and have fun!\n"
+"\t\t\t\t\t\t"
+msgstr ""
+"\n"
+"Une fois les paramètres de l'email finalisés, <b>enregistrer vos "
+"modifications</b><br/>Vous verrez alors le résultat dans le générateur de "
+"style ci-dessous<br/>Sélectionnez les éléments que vous souhaitez modifier "
+"et amusez vous!"
+
+#: mailer.php:348
+msgid "Header picture"
+msgstr "Image d'entête"
+
+#: mailer.php:349
+msgid "Footer text"
+msgstr "Texte de pied de page"
+
+#: mailer.php:363
+msgid "Email details"
+msgstr "Détails de l’Email"
+
+#: mailer.php:368
+msgid "Subject"
+msgstr "Sujet"
+
+#: mailer.php:400
+msgid "Receiver Email"
+msgstr "Destinataire"
+
+#: mailer.php:403
+msgid "Test your email to see how it looks"
+msgstr "Testez l'envoi de l'email pour voir à quoi il ressemble"
+
+#: mailer.php:410
+msgid "Send test email"
+msgstr "Envoyer l'email de test"
+
+#: mailer.php:428
+msgid "Test email sent."
+msgstr "Email de test envoyé."
+
+#: mailer.php:431
+msgid "Test email is not valid."
+msgstr "L'email de test n'est pas valide."
+
+#: pages.php:462
+msgid "Changes not commited."
+msgstr "Les modifications n’ont pas été commitées."
+
+#: pages.php:463
+msgid "Please confirm or cancel the active form before submit that page."
+msgstr ""
+"Veuillez confirmer ou annuler le formulaire actif avant de soumettre cette "
+"page."
+
+#: pages.php:464
+msgid "Do you really want to delete the line?"
+msgstr "Voulez-vous vraiment supprimer la ligne ?"
+
+#: pages.php:465
+msgid "Update error, please check the values."
+msgstr "Erreur de mise à jour, vérifiez les valeurs."
+
+#: pages.php:466
+msgid "An error occured, please try later."
+msgstr "Une erreur est survenue, s'il vous plaît essayez à nouveau plus tard."
+
+#: pages.php:467
+msgid "Please, select an item."
+msgstr "Veuillez sélectionner un élément."
+
+#: pages.php:468
+msgid "Select a font"
+msgstr "Sélectionnez une police"
+
+#: pages.php:469
+msgid "Show more"
+msgstr "Afficher plus"
+
+#: pages.php:470
+msgid "Show less"
+msgstr "Afficher moins"
+
+#: pages.php:472
+msgctxt "Font weight"
+msgid "Thin"
+msgstr "Ultra Fin"
+
+#: pages.php:473
+msgctxt "Font weight"
+msgid "Extra Light"
+msgstr "Fin"
+
+#: pages.php:474
+msgctxt "Font weight"
+msgid "Light"
+msgstr "Clair"
+
+#: pages.php:475 pages.php:476
+msgctxt "Font weight"
+msgid "Normal"
+msgstr "Normal"
+
+#: pages.php:477
+msgctxt "Font weight"
+msgid "Medium"
+msgstr "Moyen"
+
+#: pages.php:478
+msgctxt "Font weight"
+msgid "Semi Bold"
+msgstr "Semi gras"
+
+#: pages.php:479
+msgctxt "Font weight"
+msgid "Bold"
+msgstr "Gras"
+
+#: pages.php:480
+msgctxt "Font weight"
+msgid "Extra Bold"
+msgstr "Très gras"
+
+#: pages.php:481
+msgctxt "Font weight"
+msgid "Black"
+msgstr "Noir"
+
+#: pages.php:493
+msgid " didn't match any items"
+msgstr " ne correspond à aucun élément"
+
+#: pages.php:494
+msgid "Show All Items"
+msgstr "Tout afficher"
+
+#: pages/class-page.php:178 pages/class-page.php:789
+msgid "Your settings have been saved."
+msgstr "Vos réglages ont été enregistrés."
+
+#: pages/class-page.php:401
+msgid "Advanced Settings"
+msgstr "Paramètres avancés"
+
+#: pages/class-page.php:557
+msgid "Documentation"
+msgstr "Documentation"
+
+#: pages/class-page.php:558
+msgid "Other Plugins"
+msgstr "Autres Extensions"
+
+#: pages/class-page.php:559
+msgid "Support"
+msgstr "Support"
+
+#: pages/class-page.php:560
+msgid "Try the Pro Version for free"
+msgstr "Essayez la version Pro gratuitement"
+
+#: pages/class-page.php:561
+msgid "Join Us on Discord"
+msgstr "Rejoignez-nous sur Discord"
+
+#: pages/class-page.php:562
+msgid "Activate your licence"
+msgstr "Activez votre licence"
+
+#: pages/class-page.php:563
+msgid "Watch our Youtube tutorials"
+msgstr "Visionnez nos tutoriels YouTube"
+
+#: pages/class-page.php:569 pages/class-page.php:573 pages/class-page.php:628
+#: pages/class-page.php:632
+msgid "https://plugins.longwatchstudio.com/en/home/"
+msgstr "https://plugins.longwatchstudio.com/fr/accueil/"
+
+#: pages/class-page.php:572 pages/class-page.php:631
+msgid "https://plugins.longwatchstudio.com/en/documentation/"
+msgstr "https://plugins.longwatchstudio.com/fr/documentation/"
+
+#: pages/class-page.php:604
+#, php-format
+msgid "%1$s Admin Panel %2$s"
+msgstr "%1$s Admin Panel %2$s"
+
+#: pages/class-page.php:689
+msgctxt "Singular object edition screen"
+msgid "Delete element"
+msgstr "Supprimer l’élément"
+
+#: pages/class-page.php:690
+msgctxt "Singular object edition screen"
+msgid "I really want to delete it"
+msgstr "Je veux vraiment le supprimer"
+
+#: pages/class-page.php:691
+msgctxt "Singular object edition screen"
+msgid "Cancel"
+msgstr "Annuler"
+
+#: pages/class-page.php:692
+msgctxt "Singular object edition screen"
+msgid "This element will be permanently removed. Are you sure?"
+msgstr "Cet élément sera définitivement supprimé. Êtes-vous sûr?"
+
+#: pages/class-page.php:693
+msgctxt "Singular object edition screen"
+msgid "Permanent deletion"
+msgstr "Suppression permanente"
+
+#: pages/class-page.php:710
+msgctxt "Singular object creation screen"
+msgid "Create"
+msgstr "Créer"
+
+#: pages/class-page.php:710
+msgctxt "Singular object edition screen"
+msgid "Update"
+msgstr "Mettre à jour"
+
+#: pages/class-page.php:718
+msgid "Publish"
+msgstr "Publier"
+
+#: pages/class-page.php:761
+msgid "Action rejected for current user. Insufficient capacities."
+msgstr "Action rejetée pour l’utilisateur actuel. Capacités insuffisantes."
+
+#: pages/class-page.php:814
+msgctxt "post deletion"
+msgid "Unavailable action."
+msgstr "Action indisponible."
+
+#: pages/class-page.php:820
+msgctxt "post deletion"
+msgid "Security check failed."
+msgstr "Échec du test de sécurité."
+
+#: pages/class-page.php:826
+msgid "Element permanently removed."
+msgstr "Élément définitivement enlevé."
+
+#: pages/field/class-border.php:25
+msgctxt "CSS margin tooltip"
+msgid ""
+"1 to 4 values accepted<br/>\n"
+"<p class='lwss-tooltip-exemple'>5px | Sets a global margin of 5 pixels</p>\n"
+"<p class='lwss-tooltip-exemple'>1px 2px 3px 4px | Sets top, right, bottom, "
+"left margins</p>"
+msgstr ""
+"1 à 4 valeurs acceptées <br/><p class='lwss-tooltip-exemple'> 5px | Définit "
+"une marge globale de 5 pixels </p><p class='lwss-tooltip-exemple'> 1px 2px "
+"3px 4px | Définit les marges supérieure, droite, inférieure et gauche </p>"
+
+#: pages/field/class-border.php:33
+msgctxt "CSS padding tooltip"
+msgid ""
+"1 to 4 values accepted<br/>\n"
+"<p class='lwss-tooltip-exemple'>5px | Sets a global padding of 5 pixels</p>\n"
+"<p class='lwss-tooltip-exemple'>1px 2px 3px 4px | Sets top, right, bottom, "
+"left padding</p>"
+msgstr ""
+"1 à 4 valeurs acceptées <br/><p class='lwss-tooltip-exemple'> 5px | Définit "
+"un padding global de 5 pixels </p><p class='lwss-tooltip-exemple'> 1px 2px "
+"3px 4px | Définit le padding haut, droite, bas et gauche </p>"
+
+#: pages/field/class-border.php:41
+msgctxt "CSS border tooltip"
+msgid ""
+"1 to 4 values accepted<br/>\n"
+"<p class='lwss-tooltip-exemple'>5px | Sets a global border size of 5 pixels</"
+"p>\n"
+"<p class='lwss-tooltip-exemple'>1px 2px 3px 4px | Sets top, right, bottom, "
+"left borders</p>"
+msgstr ""
+"1 à 4 valeurs acceptées <br/><p class='lwss-tooltip-exemple'> 5px | Définit "
+"une taille de bordure globale de 5 pixels </p><p class='lwss-tooltip-"
+"exemple'> 1px 2px 3px 4px | Définit la bordure supérieure, droite, "
+"inférieure, gauche </p>"
+
+#: pages/field/class-border.php:49
+msgctxt "CSS radius tooltip"
+msgid ""
+"1 to 4 values accepted<br/>\n"
+"<p class='lwss-tooltip-exemple'>5px | Sets a global border radius of 5 "
+"pixels</p>\n"
+"<p class='lwss-tooltip-exemple'>1px 2px 3px 4px | Sets top, right, bottom, "
+"left border radius</p>"
+msgstr ""
+"1 à 4 valeurs acceptées <br/><p class='lwss-tooltip-exemple'> 5px | Définit "
+"un rayon de bordure global de 5 pixels </p><p class='lwss-tooltip-exemple'> "
+"1px 2px 3px 4px | Définit le rayon haut, droit, bas et gauche </p>"
+
+#: pages/field/class-border.php:73
+msgctxt "CSS border size edition"
+msgid "Margin"
+msgstr "Marge"
+
+#: pages/field/class-border.php:75
+msgctxt "CSS border size editoin"
+msgid "Padding"
+msgstr "Padding"
+
+#: pages/field/class-border.php:77
+msgctxt "CSS border size editoin"
+msgid "Border"
+msgstr "Bordure"
+
+#: pages/field/class-border.php:79
+msgctxt "CSS border size editoin"
+msgid "Radius"
+msgstr "Rayon"
+
+#: pages/field/class-border.php:81
+msgctxt "CSS color edition"
+msgid "Border Color"
+msgstr "Bordure"
+
+#: pages/field/class-border.php:83
+msgctxt "CSS color edition"
+msgid "Background"
+msgstr "Arrière-plan"
+
+#: pages/field/class-border.php:155
+msgctxt "LWSS border text demo"
+msgid "This is a sample text"
+msgstr "Ceci est un exemple"
+
+#: pages/field/class-cssbutton.php:67
+msgctxt "LWSS button colors"
+msgid "Normal"
+msgstr "Normal"
+
+#: pages/field/class-cssbutton.php:68
+msgctxt "LWSS button colors"
+msgid "Over"
+msgstr "Survol"
+
+#: pages/field/class-cssbutton.php:69
+msgctxt "LWSS button colors"
+msgid "Focused"
+msgstr "Focus"
+
+#: pages/field/class-cssbutton.php:70
+msgctxt "LWSS button colors"
+msgid "Text"
+msgstr "Texte"
+
+#: pages/field/class-cssbutton.php:71
+msgctxt "LWSS button colors"
+msgid "Background"
+msgstr "Arrière-plan"
+
+#: pages/field/class-cssbutton.php:88
+msgctxt "CSS color edition"
+msgid "Normal Text"
+msgstr "Texte normal"
+
+#: pages/field/class-cssbutton.php:89
+msgctxt "CSS color edition"
+msgid "On Hover Text"
+msgstr "Au survol"
+
+#: pages/field/class-cssbutton.php:90
+msgctxt "CSS color edition"
+msgid "On Click Text"
+msgstr "Au clic"
+
+#: pages/field/class-cssbutton.php:95
+msgctxt "CSS color edition"
+msgid "Normal Background"
+msgstr "Arrière-plan Normal"
+
+#: pages/field/class-cssbutton.php:96
+msgctxt "CSS color edition"
+msgid "On Hover Background"
+msgstr "Arrière-plan au Survol"
+
+#: pages/field/class-cssbutton.php:97
+msgctxt "CSS color edition"
+msgid "On Click Background"
+msgstr "Arrière-plan au clic"
+
+#: pages/field/class-font.php:83
+msgctxt "LWSS font text demo"
+msgid "This is a sample text"
+msgstr "Ceci est un exemple"
+
+#: pages/field/class-googleapikey.php:24
+msgid "Your Google API key"
+msgstr "Votre clé d'API Google"
+
+#: pages/field/class-googleapikey.php:26
+msgid "You should define a Google API key in this settings."
+msgstr "Vous devriez définir une clé Google API dans ces paramètres."
+
+#: pages/field/class-lacchecklist.php:39
+msgid "Select..."
+msgstr "Sélectionner..."
+
+#: pages/field/class-media.php:31
+msgid "Pick a media"
+msgstr "Choisissez un média"
+
+#: pages/field/class-media.php:32
+msgid "Remove"
+msgstr "Supprimer"
+
+#: pages/field/class-media.php:33
+msgid "Select media"
+msgstr "Sélectionnez un média"
+
+#: pages/field/class-media.php:34
+msgid "Use the selected item"
+msgstr "Utilisez l’élément sélectionné"
+
+#: pages/field/class-stygen.php:46
+msgid "Available Elements"
+msgstr "Éléments disponibles"
+
+#: pages/field/class-stygen.php:47
+msgid "Select an element to start modifying its style"
+msgstr "Sélectionnez un élément pour commencer à modifier son style"
+
+#: pages/field/class-stygen.php:48
+msgctxt "Stygen button"
+msgid "Reset Style"
+msgstr "Réinitialiser les styles"
+
+#: pages/field/class-stygen.php:130
+msgid "Snippet unknown"
+msgstr "Extrait inconnu"
+
+#: pseudocss.php:246
+msgid "Default CSS values"
+msgstr "Valeurs CSS par défaut"
+
+#: pseudocss.php:251
+msgctxt "Default css values"
+msgid "Reset"
+msgstr "Réinitialiser"
+
+#. Plugin Name of the plugin/theme
+msgid "LWS Admin Panel"
+msgstr "LWS Admin Panel"
+
+#. Description of the plugin/theme
+msgid "Provide an easy way to manage other plugin's settings."
+msgstr "Fournit un moyen facile de gérer les paramètres d'autres extensions."
+
+#. Author URI of the plugin/theme
+msgid "https://longwatchstudio.com"
+msgstr "https://longwatchstudio.com"
+
+#~ msgid ""
+#~ "<p>Bad response from license server. Please retry later or contact the "
+#~ "administrator.</p>"
+#~ msgstr ""
+#~ "<p>Mauvaise réponse du serveur de licences. Veuillez réessayer plus tard "
+#~ "ou contactez l’administrateur.</p>"
+
+#~ msgid "Trash"
+#~ msgstr "Mettre à la corbeille"
+
+#~ msgctxt "Input array validation"
+#~ msgid "%s needs a value"
+#~ msgstr "%s nécessite une valeur"
+
+#~ msgid "Title"
+#~ msgstr "Titre"
+
+#~ msgid "Header"
+#~ msgstr "En-tête"
+
+#~ msgid "A short text describing the mail purpose."
+#~ msgstr "Un court texte décrivant le but de l'email."
+
+#~ msgid "Confirm or abort edition before continue."
+#~ msgstr "Confirmez ou abandonnez l’édition en cours avant de continuer."
+
+#~ msgid "Licence"
+#~ msgstr "Licence"
+
+#~ msgid "Edit"
+#~ msgstr "Modifier"
+
+#~ msgid "Main"
+#~ msgstr "Principal"
+
+#~ msgid "Page title"
+#~ msgstr "Titre de la page"
+
+#~ msgid "User name"
+#~ msgstr "Utilisateur"
+
+#~ msgctxt "%4$s is license key form."
+#~ msgid ""
+#~ "<p>Activate this plugin to enjoy all available features of <strong>%1$s</"
+#~ "strong><br/>If you do not have any license, please visit <a href='%3$s'>"
+#~ "%2$s</a></p><p>%4$s</p>"
+#~ msgstr ""
+#~ "<p>Activez <strong>%1$s</strong> pour profiter de toutes ses "
+#~ "fonctionnalités.<br>\n"
+#~ "Si vous n’avez pas de licence, consultez <a href='%3$s'>%2$s</a></p>\n"
+#~ "<p>%4$s</p>"
+
+#~ msgid "<p>License activated</p>"
+#~ msgstr "Licence activée"

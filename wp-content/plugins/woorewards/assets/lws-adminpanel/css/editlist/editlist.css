@@ -1,0 +1,176 @@
+/* Edit-List */
+.lws_editlist{display: flex;flex-direction: column;align-items:flex-end;}
+.lws-editlist{font-family:"Gravity"}
+.lws-editlist .lws-editlist-row{width: 100%;}
+.lws-editlist .lws-editlist-row:nth-child(even){background-color: #ffffff;}
+.lws-editlist .lws-editlist-row:nth-child(odd){background-color: #f1f1f1;}
+.lws-editlist-cell{border-left: 1px solid white;}
+.lws-editlist-header .lws-editlist-cell{background-color:#333333;color: white;}
+.lws-editlist-line-inputs{display:flex;flex-wrap: wrap;}
+.lws-editlist-line-btns{padding-top:10px;padding-right:10px;
+	display: flex;flex-direction: row;justify-content: space-between;
+}
+.lws-editlist-btn-sep{padding: 0 5px 0 5px;word-wrap: normal;overflow:visible;}
+.lws-editlist-btn-del{color: red;cursor:pointer;word-wrap: normal;overflow:visible;}
+.lws-editlist-btn-mod{color: #3fa1f5;cursor:pointer;word-wrap: normal;overflow:visible;}
+.lws-editlist-btn-dup{color: #3fa1f5;cursor:pointer;word-wrap: normal;overflow:visible;}
+.lws-adm-btn.lws-editlist-btn-cancel{cursor:pointer;word-wrap: normal;overflow:visible;
+	border-radius:4px;text-decoration:none;border: none;text-shadow: none !important;
+	padding:0 10px; box-shadow: none; font-weight: normal;background-color:#cccccc;
+}
+.lws-adm-btn.lws-editlist-btn-cancel:hover{background-color:#aaaaaa;color:#fff;}
+.lws-adm-btn.lws-editlist-btn-save{cursor:pointer;background:#1a8cdd;color:#fff;cursor:pointer;border-radius:4px;
+	text-decoration:none;border: none;text-shadow: none !important;
+	padding:0 10px; box-shadow: none; font-weight: normal;
+}
+.lws-adm-btn.lws-editlist-btn-save:hover{background:#3fa9f5;text-decoration:none;color:#fff;}
+.lws-adm-btn.lws-editlist-add{border-radius: 4px;font-size:16px; border:none;margin-top:5px;font-weight: normal;}
+.lws-editlist-title{text-transform: uppercase;color: #666;border-bottom:1px solid #3fa9f5;margin-right:10px;}
+.lws-editlist-opt-title{font-weight:300;font-style: italic;color: #666;line-height: 28px;clear:both;margin-right:5px;}
+.lws-editlist-opt-text{font-weight:normal;color: #333;display: block;line-height: 2.5;}
+.lws-editlist-opt-input{padding: 0 10px 0 0;min-height:28px;flex:auto;display:flex;flex-direction:row;box-sizing: border-box;position:relative;}
+.lws-editlist-opt-input select{flex:auto;}
+.lws-editlist-opt-input input[type="url"]{flex:1 1 auto;border:1px solid #ccc;box-shadow: none;margin:0;}
+.lws-editlist-opt-input input[type="text"]{flex:1 1 auto;border:1px solid #ccc;box-shadow: none;}
+.lws-editlist-opt-input input[type="date"]{flex:1 1 auto;border:1px solid #ccc;box-shadow: none;}
+.lws-editlist-opt-input textarea{flex:1 1 auto;border:1px solid #ccc;box-shadow: none;}
+.lws-editlist-opt-multi{display:flex;flex-direction: row;flex:1 1 auto;}
+.lws-editlist-opt-multi .lws-checkbox{flex:0 0 auto;box-shadow: none;;margin:1px 5px 3px 0;height:30px;}
+.lws-editlist-opt-multi input[type="text"]{flex:1 1 auto;border:1px solid #ccc;box-shadow: none;bottom:1px;position: relative;margin-right:5px;}
+.lws-editlist-buttons{overflow:visible;width:250px;}
+.lws-tablenav{display: flex;flex-direction: row;justify-content: flex-end;padding-top:10px;}
+.lws-tablenav-ipp{padding-right:20px;flex:1 1 auto;}
+.lws-tablenav-pages{font-family:"Gravity";font-weight:300;color:black;}
+.lws-displaying-num{display:inline-block;margin-right:10px;}
+.lws-paging-input input{width: 4em;}
+.lws-paging-input span{margin-right: 3px;}
+
+.lws-perpage-input{display:flex;flex-direction:row;justify-content: flex-end;}
+.lws-perpage-input input{width: 4em;box-shadow: none;border:1px solid #ccc;height:29px;}
+.lws-perpage-input .lws-label-ipp{flex:0 1 auto;line-height:29px;padding:2px 5px 0 0;white-space: nowrap;}
+.lws-perpage-input .lws-input-ipp{flex:0 0 29px;height:29px;box-sizing: border-box;border:1px solid #ccc;margin:2px 1px;
+	padding:4px 5px 7px 5px;cursor: pointer;background:#fff;
+}
+.lws-perpage-input .lws-input-ipp-sel{background-color:#3f81c5;color:#fff;}
+.lws-perpage-input .lws-input-ipp:hover{color:#fff;background-color:#3fa9f5;}
+.lws-paging-navspan{display: inline-block;min-width: 17px;border: 1px solid #ccc;background:#fff;
+					padding: 4px 5px 7px;line-height:1;font-size: 16px;text-align: center;margin:2px;cursor:pointer;}
+.lws-paging-navspan-ko{background: #eee;color:#ccc;border-color:#aaa;}
+.lws-paging-navspan-ok{color:#3fa9f5;}
+.lws-paging-navspan-ok:hover{background-color:#3fa9f5;color:#fff;border-color:#3fa1f5}
+.lws-paging-input input{border:1px solid #ccc;box-shadow: none;margin: 0px 1px 2px 1px;padding:4px 5px 2px 5px;}
+.lws-editlist-filters-first-line{display:flex;flex-direction: row;flex: 1 1 auto;flex-wrap: wrap;
+	border: solid 1px #ddd;border-radius: 2px;padding: 5px;margin-top: 1px;background-color: #fff;
+	justify-content: flex-end;
+}
+.lws-editlist-bottom-line{display:flex;flex-direction: row;justify-content: space-between;width:100%}
+.lws-editlist-bottom-line .lws-editlist-filters{width:auto;flex:0 0 auto;margin-left:5px;padding-left:5px;}
+.lws_editlist_actions{flex:0 1 auto;padding-top:5px;}
+.lws-editlist-actions-left{display: flex;justify-content: center;align-items: center;width: 41px;font-size:20px;border-right:1px solid #ccc;}
+.lws-editlist-actions-right{display: flex;flex-direction: column;}
+.lws-editlist-actions-cont{
+	display: flex;flex-direction: row; background-color:#fff;
+	border:1px solid #ccc;border-radius: 2px;
+}
+.lws-editlist-actions-right .lws-editlist-action{padding:5px;}
+.lws-editlist-action input{font-family:"Gravity";font-weight:300;color:black;margin:0 5px;}
+.lws-editlist-action .lac-select-wrapper{margin:1px 5px;}
+.lws-editlist-action button{margin:1px 5px;height:28px;}
+.lws-editlist-action-sep{border-top:1px solid #ccc;margin:2px 5px;}
+
+/* Editlist Fieldsets */
+.lws-editlist-fieldset{min-height:60px;box-sizing: border-box;}
+.lws-editlist-fieldset label{line-height: 28px;}
+.lws-editlist-fieldset br{display: block;content:"";margin-top:5px;}
+.lws-editlist-fieldset input.lws-adm-input-autocomplete{width:100%;}
+.lws-editlist-fieldset button.lws-adm-btn-autocomplete{	width:26px;height:26px;	margin:0 0 0 -26px;padding:0;line-height:28px;}
+.lws-editlist-fieldset .lws-editlist-fs-table{width:100%;padding:0;margin:0}
+.lws-editlist-fs-table tr{height:28px;}
+.lws-editlist-fs-table td{padding:10px 0 0 0;}
+.lws-editlist-fs-table td.lcell{width:15%;padding-right:10px;line-height: 28px;}
+.lws-editlist-fs-table td.rcell{width:85%;}
+
+/* Editlist Edit Lines */
+.lws-editlist-input-line{display:flex;flex-direction:row;flex:0 1 auto;line-height:28px;padding-top:5px;}
+.lws-editlist-input-line-label{flex:0 1 140px;}
+
+/* Editlist Groups */
+.lws_editlist_groups{width:100%}
+.lws-editlist-group{background-color:#ddd;margin-bottom:10px;padding-bottom:10px;border-radius: 4px;
+display:flex;flex-direction:column;align-items:flex-end;}
+.lws-editlist-group table{padding:5px; background-color:transparent;border:none;}
+.lws-editlist-group .lws-editlist-add{margin-right:5px;}
+/* Editlist Headers */
+.lws-master-editlist .lws-editlist-groupby-head{width:100%;padding-bottom:10px;}
+.lws-editlist-groupby-head .lws_editlist_groupby_form{display:flex;flex-direction:row;}
+.lws-editlist-groupby-head .lws-editlist-groupby-header{display:flex;flex-direction:row;flex:1 1 auto;}
+
+/* Editlist Header Buttons */
+.lws-master-editlist .lws-editlist-group-btn{
+	cursor:pointer;padding:0 10px;border:none;
+	text-decoration:none;text-shadow: none !important;
+	font-size:20px;color:#fff;line-height:30px;
+	display: flex;flex-direction: row;height:30px;
+}
+
+.lws-master-editlist .lws_editlist_group_head_edit{background-color:#3f81c5}
+.lws-master-editlist .lws_editlist_group_head_edit:hover{background-color:#3fa9f5}
+.lws-master-editlist .lws_editlist_group_del{background-color:#cc1d25;border-radius: 0 4px 0 0;}
+.lws-master-editlist .lws_editlist_group_del:hover{background-color:#ff1d25}
+.lws-master-editlist .lws_editlist_group_form_submit{background-color: #5ebb41;}
+.lws-master-editlist .lws_editlist_group_form_cancel{background-color: #cc1d25;border-radius: 0 4px 0 0;}
+.lws-master-editlist .lws_editlist_group_form_submit:hover{background-color: #64d841;}
+.lws-master-editlist .lws_editlist_group_form_cancel:hover{background-color: #ff1d25;}
+
+.lws-master-editlist .lws-editlist-group-add{width:100%;border-radius: 4px;font-size:25px;height:40px;
+	display: flex;flex-direction:row;justify-content:center;line-height:30px;
+}
+.lws-master-editlist .lws-group-add-icon{padding-right:5px;}
+.lws-master-editlist.lws_editlist button.lws-editlist-btn-disabled{background-color:gray;color:lightgray;cursor:not-allowed;}
+.lws-master-editlist.lws_editlist button.lws-editlist-btn-disabled:hover{background-color:gray;color:lightgray;}
+
+/* Editlist Filter fields */
+.lws-editlist-filters{width:100%;}
+.lws-editlist-filter{flex:1 1 auto;padding:5px;}
+.lws-editlist-filter input{font-family:"Gravity";height:28px;margin-right:2px;font-weight:300;color:black;border:1px solid #ccc;box-shadow: none;}
+.lws-editlist-filter button{margin-right:2px;}
+.lws-editlist-filter a{text-decoration:none;font-size: 13px;}
+.lws-editlist-filter-selection{flex:1 1 auto;}
+.lws-editlist-filter-search{padding-left:5px;}
+.lws-editlist-opt-icon{color:#3fa9f5;line-height:28px;flex:0 0 20px;}
+.lws-editlist-filter-selected{font-weight:600;}
+
+.lws-editlist-filters .lws-editlist-filter-box{padding-right:5px;}
+
+.lws-editlist-filters .lws-editlist-filter-box-title{font-weight: 600;border-bottom: 1px solid #ddd;padding-bottom: 3px;}
+.lws-editlist-filters .lws-editlist-filter-box-content{padding-top:3px;}
+.lws-editlist-filters .lws-editlist-filter-selection .lws-editlist-filter-box-content{padding-top:10px;}
+.lws-editlist-filters .lws-editlist-filter-box-content label{vertical-align: baseline;}
+.lws-adm-btn.lws-editlist-filter-btn{
+	margin-left:10px;height:28px;position:relative;border-radius:4px;
+	border:none;
+}
+
+/* help field */
+.lws-editlist-field-help{margin:0;margin:5px 10px 5px 0;font-size:15px;background:rgba(1, 43, 43, 0.5);
+	border-width:0 ; border-radius:4px; display:flex;flex-direction: row;
+	border-style:solid;border-color:rgba(1, 43, 43, 0.7);padding:5px;color:#fff;font-weight: normal;align-items:center;}
+.lws-editlist-field-help-icon{color:rgb(0, 255, 255);font-size:20px;flex:0 0 30px;align-items: baseline;
+	text-align:center;align-content:center;padding-right:5px;}
+.lws-editlist-field-help-text{padding:5px;flex:1 1 auto;border-left:1px solid rgb(0,255,255);min-height: 30px;box-sizing: border-box}
+
+
+/* field copy */
+
+.lws-editlist-field-copy{display:inline-flex;flex-direction:row;
+	border:1px solid #7f9595;border-radius:4px;
+	height:20px;font-weight:bold;
+}
+.lws-editlist-field-copy-text{padding:0 10px;}
+.lws-editlist-field-copy-icon{
+	border-left:1px solid #7f9595;padding:0 10px;cursor:pointer;line-height:20px;
+	background-color:rgba(1, 43, 43, 0.5);color:rgb(0, 255, 255);
+}
+
+/* Override WP */
+.widefat th.lws-editlist-cell input{margin:0 0 0 2px;}

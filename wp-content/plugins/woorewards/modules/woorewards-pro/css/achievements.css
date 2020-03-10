@@ -1,0 +1,8 @@
+.lws_achievement_main_settings{display:flex;flex:1 1 auto;}
+.lws_achievement_action_settings{display:flex;flex:0 1 auto;}
+.lws-achievement-main-settings{display:flex;flex-direction: row;flex:1 1 auto;}
+.lws_woorewards_pool_cost{width:4em;}
+.lws-editlist-opt-badge .lac-select-item .lws-wr-select-badge-icon{width:22px;display: table-cell;}
+.lws-editlist-opt-badge .lac-select-item .lws-wr-select-badge-label{margin-left:3px;display: table-cell;vertical-align:middle;}
+.lws_woorewards_system_type_select .lws_woorewards_system_choice fieldset.fieldset-0{display:none;}
+.lws_woorewards_system_type_select .lws_woorewards_system_choice fieldset.fieldset-1{display:none;}

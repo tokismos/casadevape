@@ -1,0 +1,33 @@
+.lws-badge-metabox-wrapper{
+	display: flex;flex-direction: row;
+}
+.lws-badge-metabox-content-container{
+	display:flex; flex-direction: column;
+	width: 100%;
+	border-left-style : solid;
+	border-left-color:#aaa;
+	border-left-width: 1px;
+	margin-left: 10px;
+	padding-left: 10px;
+}
+.lws-badge-metabox-content-title{
+	padding:5px 10px;
+	font-family: "Gravity";
+	font-weight: bold;
+}
+.lws-badge-metabox-content-sep{
+	margin:0 10px;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-style : solid;
+	border-color:#aaa;
+}
+.lws-badge-metabox-content-text{
+	padding:5px 10px;
+}
+.lws-badge-achievement-preview-metabox{
+	padding: 10px 10px 0 10px;
+	text-align: right;
+}

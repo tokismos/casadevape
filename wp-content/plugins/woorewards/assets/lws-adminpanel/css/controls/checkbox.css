@@ -1,0 +1,11 @@
+/* LWS Checkbox */
+.lws-checkbox{
+    border:1px solid #aaa;border-radius:3px;cursor:pointer;
+    padding:1px;box-sizing:border-box;display:inline-block;
+}
+.lws_checkbox.lws-checkbox-hidden{
+    order: 0;clip: rect(0 0 0 0);height: 1px;margin: -1px;overflow: hidden;padding: 0;position: absolute;width: 1px;
+}
+.lws-checkbox-inactive{
+    background-color: #eee;
+}

@@ -1,0 +1,21 @@
+/* LWS Autocomplete Controls - Select */
+
+.lac-input-wrapper{
+    position: relative;
+    display:inline-flex;flex-direction: row;border:1px solid #ddd;background:#fff;
+    height:28px;box-sizing: border-box;
+}
+.lac-input-text{border:none;flex:0 1 auto;background-color:transparent;position: relative;height:24px;}
+.lac-input-showmore{flex:0 0 auto;padding:3px 4px;color:#666666;background-color:transparent;cursor:pointer;font-size:18px;display:none;}
+.lac-input-showmore:hover{color:#3fa9f5;}
+.lac-input-list{position:absolute;border:1px solid #ddd;background-color:#fff;
+    top:27px;min-width:180px;max-height:200px;overflow-y:auto;box-sizing:border-box;
+    padding:0;display:none;height:auto;z-index:300;
+}
+.lac-input-error{position:absolute;border:1px solid #df2500;background-color:#fee;
+    top:28px; color: #600; padding:2px 10px;display:none;z-index:200;}
+
+.lac-input-optgroup{padding:5px;box-sizing: border-box;background-color:#999;color:#fff;font-size:10px;font-weight: bold;text-transform: uppercase;}
+.lac-input-item{padding:5px;box-sizing: border-box;cursor:pointer;}
+.lac-input-item:hover{background-color:#3fa9f5;color:#fff;}
+.lac-highlighted, .lac-highlighted:hover{background-color:#015aa3;color:#fff;}

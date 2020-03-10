@@ -1,0 +1,15 @@
+.lws-woorewards-historic-points {display: flex;width: 40em;flex-direction: column;}
+.lws-woorewards-historic-points-row {flex-direction: row;display: flex;}
+
+.lws-woorewards-historic-points-cell-date {flex-direction: row;line-height: 1.6em;font-family: Gravity;font-weight: 300;display: flex;width: 30%;}
+.lws-woorewards-historic-points-cell-time {flex-direction: row;line-height: 1.6em;font-family: Gravity;font-weight: 300;display: flex;width: 20%;}
+.lws-woorewards-historic-points-cell-points {flex-direction: row;text-align: right;width: 10%;}
+.lws-woorewards-historic-points-cell-commentar {flex-direction: row;text-align: left;width: 40%;}
+
+.lws-woorewards-historic-points-cell-code {flex-direction: row;text-align: left;width: 40%;}
+.lws-woorewards-historic-points-cell-expiry {flex-direction: row;line-height: 1.6em;font-family: Gravity;font-weight: 300;display: flex;width: 50%;}
+.lws-woorewards-historic-points-cell-amount {flex-direction: row;text-align: right;width: 10%;}
+
+.lws-woorewards-historic-show-current {border-bottom: 2px solid;width: 40em;margin-bottom: 10px;text-align: right;}
+.lws-woorewards-historic-show-current-label {line-height: 1.6em;font-family: Gravity;font-weight: 300;margin-right:1em;}
+.lws-woorewards-historic-show-current {text-align: right;}

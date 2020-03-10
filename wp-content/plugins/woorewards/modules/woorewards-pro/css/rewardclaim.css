@@ -1,0 +1,4 @@
+.lws-wr-rewardclaim-dialog{} /** jquery-ui dialog frame */
+#lws_wooreward_rewardclaimed{} /** dialog content div */
+#lws_wooreward_rewardclaimed .lws-wr-rewardclaim-message{} /** reward or error description */
+#lws_wooreward_rewardclaimed .lws-wr-rewardclaim-extend{} /** the place available rewards are listed */

@@ -1,0 +1,1 @@
+jQuery(function(a){a("body").on("click",".lws_referral_value_copy .copy",function(c){var b=a(c.target).closest(".lws_referral_value_copy").find(".content");window.getSelection().selectAllChildren(b.get(0));document.execCommand("copy")})});

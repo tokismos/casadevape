@@ -1,0 +1,31 @@
+/* level nodes head */
+.lws-wr-levelling-node-head{display:flex;flex-direction: row;width:100%}
+.lws-wr-levelling-node-head .lws-wr-levelling-node-item{display:flex;flex-direction: column;}
+.lws-wr-levelling-node-head .lws-wr-levelling-node-item.grouped_title{flex:0 1 auto;padding:0;}
+.lws-wr-levelling-node-head .lws-wr-levelling-node-item.cost{flex:1 1 auto;padding:0;}
+.lws-wr-levelling-node-head .lws-wr-levelling-node-label{padding-left:5px;color:#888;}
+
+/* hide per unlockable cost when grouped per level */
+.unlockablelist .lws_editlist_groups .lws_editlist_table .lws_wr_unlockable_cost_field{display:none;}
+.lws-toc-li.lws-toc-li-l2 a{color:#3fa9f5;padding-left:10px;}
+
+/* level nodes form */
+.lws-wr-levelling-node-form{display:flex;flex-direction: row;width:100%}
+.lws-wr-levelling-node-form .lws-wr-levelling-node-item{display:flex;flex-direction: column;}
+.lws-wr-levelling-node-form .lws-wr-levelling-node-item.grouped_title{flex:0 1 auto;padding:0;}
+.lws-wr-levelling-node-form .lws-wr-levelling-node-item.cost{flex:1 1 auto;padding:0;}
+.lws-wr-levelling-node-form .lws-wr-levelling-node-label{padding-left:5px;color:#888;}
+
+.grouped_title .lws-wr-levelling-node-value, .grouped_title .lws-wr-levelling-node-value input{font-size: 24px;background-color:#3fa9f5;color:#fff;
+	font-weight: normal;line-height:30px;flex:0 1 auto;border-radius:4px 0 0 0px;height:30px;}
+.cost .lws-wr-levelling-node-value, .cost .lws-wr-levelling-node-value input{font-size: 26px;color:#333;font-weight: bold;line-height:30px;
+	flex:1 1 auto;background-color:#666;color:#fff;padding:0 5px;height:30px;}
+
+.lws-wr-levelling-node-head	.grouped_title .lws-wr-levelling-node-value{padding:0 10px 0 5px;}
+
+.lws-wr-levelling-node-value .lws-input.lws-wr-title-input, .lws-wr-levelling-node-value .lws-input.lws-wr-title-input:focus{
+	width: 100%;border: none;background-color: rgba(255,255,255,0.6);color: #fff;line-height: 26px;height:26px;color:#000
+}
+.lws-wr-levelling-node-value .lws-input.lws-wr-cost-input, .lws-wr-levelling-node-value .lws-input.lws-wr-cost-input:focus{
+	border: none;background-color: rgba(255,255,255,0.6);color: #fff;line-height: 26px;height:26px;color:#000;
+}
